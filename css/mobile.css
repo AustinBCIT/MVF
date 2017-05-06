@@ -91,6 +91,47 @@ legend{font-size:15px !important;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tips and trick CSS */
 
 .title-container{text-align: center;
@@ -105,3 +146,13 @@ border-bottom: 1px solid green}
 padding-top:5px;
 }
 #demo{height:150px;}
+=======
+/* Recipes CSS */
+
+.header-recipe h1{
+    text-align: left;
+    padding-left: 80px;
+    background-color:#8CC63F;
+    color: white;
+}
+
