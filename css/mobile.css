@@ -75,5 +75,16 @@ h1{text-align: center;
 }
 
 
+/* Register CSS */
 
+fieldset{}
+form{}
+.email{width:50px;
+display:inline;
+padding-right:57px;}
+.username{display: inline;
+padding-right:30px}
+.password{display: inline;
+padding-right:30px;}
 
+legend{font-size:15px !important;}
