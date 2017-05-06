@@ -1,14 +1,21 @@
 body {}
+
 .navbar{background-color:#8CC63F;}
+
 .nav-container{}
+
 .img-container{padding-top:}
+
 .menu-container{ font-size:30px;
 color:white;}
+
 .dropdown-toggle:active, .open .dropdown-toggle {
         background:#FFF !important; 
         color:#000 !important;
     }
+
 .dropdown{padding-top:5px;}
+
 .core-container{
     margin-top:-20px;
     width:100%;
@@ -49,6 +56,24 @@ font-size:40px;
 color:#8CC63F}
 .virtual-char{font-size: 40px;
 color:#8CC63F; }
+
+.user-icon{text-align: right;
+padding-top:8px}
+
+/* About us css */
+
+.header-container{height: 50px;
+}
+h1{text-align: center;
+}
+.header1-container{
+    height:50px;
+    text-align: center;
+    
+}
+.aboutus-para{padding-top:10px;
+}
+
 
 
 
