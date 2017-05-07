@@ -2,8 +2,7 @@ body {}
 
 .navbar{
     background-color:#8CC63F;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 0 !important;
 }
 
 .nav-container{}
@@ -119,7 +118,7 @@ padding-top:5px;
     padding-top: 0px;
     margin-top:0px;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 60px;
     background-color:#8CC63F;
     color: white;
 }
