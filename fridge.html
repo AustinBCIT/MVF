@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Fridge</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--- Style Sheet --->
+    <link href="css/mobile.css" rel="stylesheet" type="text/css">
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Style for accordion function -->
+    <style>
+        
+        #addMe { 
+        
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 50px;
+        color: #444;
+        background-color: #7ad65c;
+        font-weight: bold;
+        font-size: 20px;    
+            
+        }
+        
+        
+        
+        .click {
+                border-radius: 25px;
+    border: 2px solid #73AD21;
+            padding: 10px;
+            margin-left: 5px;
+            margin-right: 5px; 
+            margin-top: 5px
+            
+        }        
+       
+        #addButton {
+            
+            position: relative;
+            left: 203px;
+            width: 45px;
+            height: 45px;
+        }
+        
+          #addButton1 {
+            
+            position: relative;
+            left: 110px;
+            width: 45px;
+            height: 45px;
+              
+        }
+          #addButton2 {
+            
+            position: relative;
+            left: 67px;
+            width: 45px;
+            height: 45px;
+        
+        }
+ 
+        button.input.accordion {
+            
+            background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+            
+        }
+        
+        button.input.accordion.active, button.input.accordion:hover {
+    background-color: #ddd; 
+}
+
+        
+        
+button.accordion {
+    background-color: beige;
+    color: #444;
+    cursor: pointer;
+    padding: 23px;
+    width: 100%;
+    border: 5px, solid, beige;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+button.accordion:active {
+    background-color: greenyellow;
+}
+        
+button.accordion:hover {
+    background-color: beige;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+</style>
+    
+<!-- Highlight or unhighlight food icons when clicked on -->    
+     <script>
+    
+        var count = 1;
+
+function MyDog(){
+	var myImages = document.getElementsByClassName('click')
+	
+	for(let i = 0; i < myImages.length; i++){
+		myImages[i].onclick=function(){
+    
+            if (myImages[i].style.backgroundColor == "") {
+			myImages[i].style.backgroundColor="#b1d0ca"
+            
+            }
+            
+             else {
+            myImages[i].style.backgroundColor=""
+    
+        }
+            
+		}
+	}
+}
+
+onload=MyDog
+
+</script>
+    
+    </head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="img-container col-xs-8 col-md-1 pull-md-10">    
+                <a href="mobileindex.html"><img src="Images/mvf_logo.png"></a>
+            </div>
+           <div class="user-icon col-xs-2 col-md-10 push-md-1"> 
+               <a href="#">
+                <i class=" fa fa-user-plus icon">
+                </i>
+               </a>
+                
+            </div>
+           <div class="dropdown">
+                <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">     <i class="fa fa-bars" aria-hidden="true">
+                    </i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right ">
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="#">Fridge</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="tips&tricks.html">Tips &amp; Tricks</a>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="affiliated.html">Affiliated Apps</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+<button class="accordion">Grains<input class="accordion" id="addButton" type="image" src="images/add.png"></button>
+<div class="panel">
+   <input onclick="MyDog()" class="click" type="image" src="images/grains/001-food-8.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/002-food-7.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/003-food-6.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/004-food-5.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/005-food-4.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/007-food-2.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/008-food-1.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/009-food.png">
+    <input onclick="MyDog()" class="click" type="image" src="images/grains/010-fruit.png">
+</div>
+
+    <button class="accordion">Meat and Poultry<input class="accordion" id="addButton1" type="image" src="images/add.png"></button>
+<div class="panel">
+   <input onclick="MyDog()" class="click" type="image" src="images/meats/001-food-7.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/002-food-8.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/003-food-6.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/004-food-5.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/005-food-4.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/006-food-3.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/007-food-2.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/008-food-1.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/009-food.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/010-meat.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/011-hamburguer.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/012-turkey.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/013-steak.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/meats/bacon.png" />
+</div>
+
+    <button class="accordion">Fruits and Vegetables<input class="accordion" id="addButton2" type="image" src="images/add.png"></button>
+<div class="panel">
+ 
+    <input onclick="MyDog()" class="click" type="image" src="images/001-banana.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/002-chili.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/004-cherries.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/005-pineapple.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/006-raspberry.png" />
+     <input onclick="MyDog()" class="click" type="image" src="images/008-lemon.png" />
+      <input onclick="MyDog()" class="click" type="image" src="images/014-watermelon.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/015-broccoli.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/016-tomato.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/017-strawberry.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/018-orange.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/020-carrot.png" />
+    <input onclick="MyDog()" class="click" type="image" src="images/021-apple.png" />
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+    <div><button id="addMe">Add</button>
+    
+    </div>
+    
+    
+    
+</body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
