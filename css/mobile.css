@@ -72,7 +72,9 @@ h1{text-align: center;
     text-align: center;
     
 }
-.aboutus-para{padding-top:10px;
+.aboutus-para{
+    padding-top:10px;
+    text-align: center;
 }
 
 
