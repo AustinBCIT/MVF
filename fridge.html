@@ -125,19 +125,19 @@ div.panel {
     
         var count = 1;
 
-function MyDog(){
-	var myImages = document.getElementsByClassName('click')
+function selected(){
+	var food = document.getElementsByClassName('click')
 	
-	for(let i = 0; i < myImages.length; i++){
-		myImages[i].onclick=function(){
+	for(let i = 0; i < food.length; i++){
+		food[i].onclick=function(){
     
-            if (myImages[i].style.backgroundColor == "") {
-			myImages[i].style.backgroundColor="#b1d0ca"
+            if (food[i].style.backgroundColor == "") {
+			food[i].style.backgroundColor="#b1d0ca"
             
             }
             
              else {
-            myImages[i].style.backgroundColor=""
+            food[i].style.backgroundColor=""
     
         }
             
@@ -145,7 +145,7 @@ function MyDog(){
 	}
 }
 
-onload=MyDog
+onload=selected
 
 </script>
     
@@ -182,51 +182,51 @@ onload=MyDog
     
 <button class="accordion">Grains<input class="accordion" id="addButton" type="image" src="images/add.png"></button>
 <div class="panel">
-   <input onclick="MyDog()" class="click" type="image" src="images/grains/001-food-8.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/002-food-7.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/003-food-6.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/004-food-5.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/005-food-4.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/007-food-2.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/008-food-1.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/009-food.png">
-    <input onclick="MyDog()" class="click" type="image" src="images/grains/010-fruit.png">
+   <input onclick="selected()" class="click" type="image" src="images/grains/001-food-8.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/002-food-7.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/003-food-6.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/004-food-5.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/005-food-4.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/007-food-2.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/008-food-1.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/009-food.png">
+    <input onclick="selected()" class="click" type="image" src="images/grains/010-fruit.png">
 </div>
 
     <button class="accordion">Meat and Poultry<input class="accordion" id="addButton1" type="image" src="images/add.png"></button>
 <div class="panel">
-   <input onclick="MyDog()" class="click" type="image" src="images/meats/001-food-7.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/002-food-8.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/003-food-6.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/004-food-5.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/005-food-4.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/006-food-3.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/007-food-2.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/008-food-1.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/009-food.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/010-meat.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/011-hamburguer.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/012-turkey.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/013-steak.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/meats/bacon.png" />
+   <input onclick="selected()" class="click" type="image" src="images/meats/001-food-7.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/002-food-8.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/003-food-6.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/004-food-5.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/005-food-4.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/006-food-3.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/007-food-2.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/008-food-1.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/009-food.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/010-meat.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/011-hamburguer.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/012-turkey.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/013-steak.png" />
+    <input onclick="selected()" class="click" type="image" src="images/meats/bacon.png" />
 </div>
 
     <button class="accordion">Fruits and Vegetables<input class="accordion" id="addButton2" type="image" src="images/add.png"></button>
 <div class="panel">
  
-    <input onclick="MyDog()" class="click" type="image" src="images/001-banana.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/002-chili.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/004-cherries.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/005-pineapple.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/006-raspberry.png" />
-     <input onclick="MyDog()" class="click" type="image" src="images/008-lemon.png" />
-      <input onclick="MyDog()" class="click" type="image" src="images/014-watermelon.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/015-broccoli.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/016-tomato.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/017-strawberry.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/018-orange.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/020-carrot.png" />
-    <input onclick="MyDog()" class="click" type="image" src="images/021-apple.png" />
+    <input onclick="selected()" class="click" type="image" src="images/001-banana.png" />
+    <input onclick="selected()" class="click" type="image" src="images/002-chili.png" />
+    <input onclick="selected()" class="click" type="image" src="images/004-cherries.png" />
+    <input onclick="selected()" class="click" type="image" src="images/005-pineapple.png" />
+    <input onclick="selected()" class="click" type="image" src="images/006-raspberry.png" />
+     <input onclick="selected()" class="click" type="image" src="images/008-lemon.png" />
+      <input onclick="selected()" class="click" type="image" src="images/014-watermelon.png" />
+    <input onclick="selected()" class="click" type="image" src="images/015-broccoli.png" />
+    <input onclick="selected()" class="click" type="image" src="images/016-tomato.png" />
+    <input onclick="selected()" class="click" type="image" src="images/017-strawberry.png" />
+    <input onclick="selected()" class="click" type="image" src="images/018-orange.png" />
+    <input onclick="selected()" class="click" type="image" src="images/020-carrot.png" />
+    <input onclick="selected()" class="click" type="image" src="images/021-apple.png" />
 </div>
 
 <script>
