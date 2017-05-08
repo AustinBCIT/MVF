@@ -24,26 +24,32 @@
     
     <style>
     
-        #addLink {
-            
-            width: 100px;
-            height: 100px;
-            position: absolute;
-            left: 50px;
-            top: 100px;
-            
-        }
+   
         
         #removeButton { 
             
-            width: 100px;
-            height: 100px;
-            position: absolute;
-            left: 200px;
-            top: 100px; 
+            width: 100%;
+            height: 50px;
+            position: fixed;
+            bottom: 0; 
+            color: #444;
+        background-color: #7ad65c;
+        font-weight: bold;
+        font-size: 20px;
             
         }
         
+        .book {
+    padding: 15px 0 0 0;
+    margin: auto;
+}
+.shelf {
+    border-bottom: 30px solid #A1A194;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    top: -15px;
+    z-index: -1;
+}
         
     </style>
 
@@ -78,8 +84,31 @@
         </div>
     </nav>
     
-    <div><button id="addLink">Add</button></div>
     <div><button id="removeButton">Remove</button></div>
+    
+    
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 col-md-2"><img src="images/018-orange.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/013-cheese.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/012-grapes.png" class="img-responsive book"/></div>
+        <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
+        <div class="col-xs-4 col-md-2"><img src="images/009-sandwich.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/008-lemon.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/007-pizza.png" class="img-responsive book"/></div>
+        <div class="col-xs-12 shelf"></div>
+        <div class="col-xs-4 col-md-2"><img src="images/006-raspberry.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/005-pineapple.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/004-cherries.png" class="img-responsive book"/></div>
+        <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
+        <div class="col-xs-4 col-md-2"><img src="images/003-fries.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/002-chili.png" class="img-responsive book"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/001-banana.png" class="img-responsive book"/></div>
+        <div class="col-xs-12 shelf"></div>
+    </div>
+    
+
+    </div>
     
     
     
