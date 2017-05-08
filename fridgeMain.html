@@ -22,6 +22,35 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
+    <script>
+    
+        var count = 1;
+
+function MyDog(){
+	var myImages = document.getElementsByClassName('click')
+	
+	for(let i = 0; i < myImages.length; i++){
+		myImages[i].onclick=function(){
+    
+            if (myImages[i].style.backgroundColor == "") {
+			myImages[i].style.backgroundColor="#b1d0ca"
+            
+            }
+            
+             else {
+            myImages[i].style.backgroundColor=""
+    
+        }
+            
+		}
+	}
+}
+
+onload=MyDog
+
+</script>
+    
+    
     <style>
     
    
@@ -89,21 +118,21 @@
     
 <div class="container">
     <div class="row">
-        <div class="col-xs-4 col-md-2"><img src="images/018-orange.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/013-cheese.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/012-grapes.png" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img onclick="MyDog()" class="click" class="img-responsive food" src="images/018-orange.png"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/013-cheese.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/012-grapes.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
         <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
-        <div class="col-xs-4 col-md-2"><img src="images/009-sandwich.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/008-lemon.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/007-pizza.png" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/009-sandwich.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/008-lemon.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/007-pizza.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
         <div class="col-xs-12 shelf"></div>
-        <div class="col-xs-4 col-md-2"><img src="images/006-raspberry.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/005-pineapple.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/004-cherries.png" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/006-raspberry.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/005-pineapple.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/004-cherries.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
         <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
-        <div class="col-xs-4 col-md-2"><img src="images/003-fries.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/002-chili.png" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/001-banana.png" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/003-fries.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/002-chili.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
+        <div class="col-xs-4 col-md-2"><img src="images/001-banana.png" onclick="MyDog()" class="click" class="img-responsive food"/></div>
         <div class="col-xs-12 shelf"></div>
     </div>
     
