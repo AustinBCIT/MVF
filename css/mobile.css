@@ -7,7 +7,7 @@ body {}
 
 .nav-container{}
 
-.img-container{padding-top:}
+.img-container{}
 
 .menu-container{ font-size:30px;
 color:white;}
@@ -117,7 +117,9 @@ h1{text-align: center;
     text-align: center;
     
 }
-.aboutus-para{padding-top:10px;
+.aboutus-para{
+    padding-top:10px;
+    text-align: center;
 }
 
 
@@ -165,4 +167,17 @@ padding-top:5px;
     background-color:#8CC63F;
     color: white;
 }
+
+
+/* My Fridge */
+.my-fridge{font-size: 30px;
+padding-left:20px;
+    text-align: center;
+}
+.fridge-header{height:60px;
+background-color:springgreen;
+}
+.content-txt{padding-left:30px;
+font-size:30px;}
+
 

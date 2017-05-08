@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+      <script src="https://use.fontawesome.com/6c5f8d3c8b.js"></script>
     <!--- Style Sheet --->
     <link href="css/mobile.css" rel="stylesheet" type="text/css">
      <!-- Latest compiled and minified CSS -->
@@ -153,9 +154,9 @@ onload=selected
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="img-container col-xs-8 col-md-1 pull-md-10">    
-                <a href="mobileindex.html"><img src="Images/mvf_logo.png"></a>
-            </div>
+       <div class="img-container col-xs-7 col-md-1 pull-md-10">    
+              <a href="mobileindex.html"><img src="Images/mvf_logo.png"></a>
+               </div>
            <div class="user-icon col-xs-2 col-md-10 push-md-1"> 
                <a href="#">
                 <i class=" fa fa-user-plus icon">
@@ -163,24 +164,26 @@ onload=selected
                </a>
                 
             </div>
-           <div class="dropdown">
+           <div class="dropdown col-xs-3 col-md-1">
                 <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">     <i class="fa fa-bars" aria-hidden="true">
                     </i>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-right ">
                     <li><a href="aboutus.html">About us</a></li>
-                    <li><a href="#">Fridge</a></li>
                     <li><a href="#">Sign In</a></li>
                     <li><a href="tips&tricks.html">Tips &amp; Tricks</a>
                     <li><a href="recipes.html">Recipes</a></li>
                     <li><a href="affiliated.html">Affiliated Apps</a></li>
+                    <li><a href="fridge.html">Fridge</a></li>
+                    <li><a href="fridgeMain.html">Fridge Main</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
     
-<button class="accordion">Grains<input class="accordion" id="addButton" type="image" src="images/add.png"></button>
+    <button class="accordion"><div class="col-md-11 col-xs-9">Grains</div><div class="col-md-1 col-xs-1"><img  src="images/add.png"></div></button>
 <div class="panel">
    <input onclick="selected()" class="click" type="image" src="images/grains/001-food-8.png">
     <input onclick="selected()" class="click" type="image" src="images/grains/002-food-7.png">
@@ -193,7 +196,7 @@ onload=selected
     <input onclick="selected()" class="click" type="image" src="images/grains/010-fruit.png">
 </div>
 
-    <button class="accordion">Meat and Poultry<input class="accordion" id="addButton1" type="image" src="images/add.png"></button>
+    <button class="accordion"><div class="col-md-11 col-xs-9">Meat and Poultry</div><div class="col-md-1 col-xs-1"><img  src="images/add.png"></div></button>
 <div class="panel">
    <input onclick="selected()" class="click" type="image" src="images/meats/001-food-7.png" />
     <input onclick="selected()" class="click" type="image" src="images/meats/002-food-8.png" />
@@ -211,7 +214,7 @@ onload=selected
     <input onclick="selected()" class="click" type="image" src="images/meats/bacon.png" />
 </div>
 
-    <button class="accordion">Fruits and Vegetables<input class="accordion" id="addButton2" type="image" src="images/add.png"></button>
+    <button class="accordion"><div class="col-md-11 col-xs-9">Fruits</div><div class="col-md-1 col-xs-1"><img  src="images/add.png"></div></button>
 <div class="panel">
  
     <input onclick="selected()" class="click" type="image" src="images/001-banana.png" />
