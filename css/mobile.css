@@ -123,3 +123,16 @@ padding-top:5px;
     color: white;
 }
 
+
+/* My Fridge */
+.my-fridge{font-size: 30px;
+padding-left:20px;
+    text-align: center;
+}
+.fridge-header{height:60px;
+background-color:springgreen;
+}
+.content-txt{padding-left:30px;
+font-size:30px;}
+
+
