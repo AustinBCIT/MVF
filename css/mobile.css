@@ -25,24 +25,69 @@ color:white;}
 }
 .pic-container{ background-color:green;
     background-repeat: no-repeat;
-    height:100px;   
+    height:125px;  
+     background-image: url(foodwaste.jpg);
+    padding: 0px !important;
 
 }
 .pic-container1{ background-color:forestgreen;
     background-repeat: no-repeat;
-    height:100px;   
+    height:125px;   
+    background-image: url(celery1.jpg);
+    padding:0px !important;
 }
-.pic-container2{ background-color:limegreen;
+.pic-container2{ 
     background-repeat: no-repeat;
-    height:100px;
- 
+    height:125px;
+    background-image: url(smoothie.jpg);
+    padding:0px !important;
 }
+
 .para-container{padding-top:20px;
 color:black;
 font-style: none;
 font-size: 20px;
-width:130px;
-margin-top:50px;}
+margin-top:50px;
+padding-left: 0px !important;
+padding-right: 0px !important;}
+
+.about {
+    
+     background-color: white;
+    opacity: 0.7;
+    font-size: 26px;
+    font-weight: bold;
+    color: #66cd00;
+    height: 50px;
+    
+}
+
+
+.contact {
+    
+
+    background-color: white;
+    opacity: 0.7;
+    font-size: 26px;
+    font-weight: bold;
+    color: #66cd00;
+    height: 50px;
+    
+}
+
+.tips {
+    
+      background-color: white;
+    opacity: 0.7;
+    font-size: 26px;
+    font-weight: bold;
+    color: #66cd00;
+    height: 50px;
+    
+
+}
+
+
 
 
 .icon{font-size: 30px;
