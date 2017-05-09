@@ -134,11 +134,21 @@ padding-right:57px;}
 padding-right:30px}
 .password{display: inline;
 padding-right:30px;}
+.password1{display: inline;
+padding-right: 55px; 
+}
 
 legend{font-size:15px !important;}
 
 
+.alert {
+    padding: 10px;
+    background-color: white;
+    color: white;
+}
 
+#alert { padding: 5px;
+text-align: center;}
 
 /* Recipes Page */
 

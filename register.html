@@ -21,6 +21,24 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script>
+    
+    function checkPassword() {
+        
+        var password = document.getElementById('checkPass').value;
+        var confirmPassword = document.getElementById('checkPass1').value;
+        
+        if (password != confirmPassword) {
+            document.getElementById('alert').innerHTML = "Passwords do not match!";
+            document.getElementById('alert').style.backgroundColor = '#f44336';
+        } else {
+            document.getElementById('alert').innerHTML = "Passwords match!";
+            document.getElementById('alert').style.backgroundColor = 'green';
+            
+        }
+    }
+        
+    </script>
     </head>
 <body>
     <nav class="navbar">
@@ -63,9 +81,11 @@
         <form class="col-md-5 col-xs-10 push-xs-2">
         <fieldset class="f-border">
         <legend>Register a new Account</legend>
-            <div class="username">Username:</div><input type="text"><br><br>
-            <div class="password">Password:</div> <input type="text"><br><br>
-            <div class="email">Email:</div> <input type="email"><br><br>
+            <div class="username">Username:</div><input type="text" required="required"><br><br>
+            <div class="password">Password:</div> <input type="password" required="required" id="checkPass"><br><br>
+            <div class="password1">Re-enter Password:</div> <input type="password" required="required" id="checkPass1" onChange="checkPassword()"><br><br>
+            <div class="alert"><p id="alert"></p></div>
+            <div class="email">Email:</div> <input type="email" required="required"><br><br>
             <input type="submit">
         </fieldset>
         </form>
