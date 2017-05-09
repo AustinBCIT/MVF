@@ -63,7 +63,8 @@ body {}
     font-size: 26px;
     font-weight: bold;
     color: #66cd00;
-    height: 50px;   
+    height: 50px; 
+    text-align: left;
 }
 
 .contact {
@@ -75,6 +76,7 @@ body {}
     font-weight: bold;
     color: #66cd00;
     height: 50px;
+    text-align: left;
     
 }
 
@@ -86,6 +88,7 @@ body {}
     font-weight: bold;
     color: #66cd00;
     height: 50px;
+    text-align: left;
 
 }
 
@@ -273,6 +276,7 @@ hr {
     font-weight: bold;
     color: #66cd00;
     height: 50px;
+    text-align: left;
     
 }
 
@@ -345,5 +349,30 @@ hr {
 }
 
 /* Affiliates Page */
+<<<<<<< HEAD
 
+=======
+.affiliate-container {
+    height:520px;
+    border: 1px solid;
+}
+
+.affiliates{
+    height:80px;
+    margin-bottom: 25px; !important;
+}
+.affiliates td p{
+    margin-left: 40px; 
+}
+
+.affiliates2 {
+    height: 80px;
+}
+.affiliates2 p {
+    margin-left: 100px;
+}
+.affiliates2 img {
+    float:left;
+}
+>>>>>>> c74136930b1fd0a26f78f7946a71e3161b13afbe
 
