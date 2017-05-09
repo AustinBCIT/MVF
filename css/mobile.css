@@ -132,10 +132,8 @@ h1 {text-align: center;}
     text-align: center;
 }
 
-
 /* Register CSS */
 
-<<<<<<< HEAD
 fieldset{}
 form{}
 .email{width:50px;
@@ -207,7 +205,7 @@ input[type=email] {
     color: white;
     text-align: center;
 }
-=======
+
 fieldset {
     margin-top: 50px !important;
     
@@ -229,7 +227,7 @@ form {}
 }
 
 legend {font-size:15px !important;}
->>>>>>> 66eca6e0a43b6c521ec55081f0d2d707d9e69c00
+
 
 #alert { padding: 5px;
 text-align: center;}
@@ -349,9 +347,7 @@ hr {
 }
 
 /* Affiliates Page */
-<<<<<<< HEAD
 
-=======
 .affiliate-container {
     height:520px;
     border: 1px solid;
@@ -374,5 +370,9 @@ hr {
 .affiliates2 img {
     float:left;
 }
->>>>>>> c74136930b1fd0a26f78f7946a71e3161b13afbe
 
+/*Contact Us */
+
+.groupphoto {
+    height:80px;
+}
