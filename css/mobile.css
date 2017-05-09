@@ -9,8 +9,10 @@ body {}
 
 .img-container{}
 
-.menu-container{ font-size:30px;
-color:white;}
+.menu-container{ 
+    font-size:30px;
+    color:white;
+}
 
 .dropdown-toggle:active, .open .dropdown-toggle {
         background:#FFF !important; 
@@ -23,45 +25,46 @@ color:white;}
     width:100%;
     height:300px;
 }
-.pic-container{ background-color:green;
+.pic-container{ 
+    background-color:green;
     background-repeat: no-repeat;
     height:125px;  
-     background-image: url(foodwaste.jpg);
+    background-image: url(foodwaste.jpg);
     padding: 0px !important;
 
 }
-.pic-container1{ background-color:forestgreen;
+.pic-container1 { 
+    background-color:forestgreen;
     background-repeat: no-repeat;
     height:125px;   
     background-image: url(celery1.jpg);
     padding:0px !important;
 }
-.pic-container2{ 
+.pic-container2 { 
     background-repeat: no-repeat;
     height:125px;
     background-image: url(smoothie.jpg);
     padding:0px !important;
 }
 
-.para-container{padding-top:20px;
-color:black;
-font-style: none;
-font-size: 20px;
-margin-top:50px;
-padding-left: 0px !important;
-padding-right: 0px !important;}
+.para-container {
+    padding-top:20px;
+    color:black;
+    font-style: none;
+    font-size: 20px;
+    margin-top:50px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 
-.about {
-    
-     background-color: white;
+.about {  
+    background-color: white;
     opacity: 0.7;
     font-size: 26px;
     font-weight: bold;
     color: #66cd00;
-    height: 50px;
-    
+    height: 50px;   
 }
-
 
 .contact {
     
@@ -77,47 +80,51 @@ padding-right: 0px !important;}
 
 .tips {
     
-      background-color: white;
+    background-color: white;
     opacity: 0.7;
     font-size: 26px;
     font-weight: bold;
     color: #66cd00;
     height: 50px;
-    
 
 }
 
 
+.icon {
+    font-size: 30px;
+    color:white;
+}
 
+.title-container {
+    height: 120px;
+    margin-top:60px;
+}
 
-.icon{font-size: 30px;
-color:white;}
+.fridge-char {
+    padding-left:100px;
+    font-size:40px;
+    color:#8CC63F}
+    .virtual-char{font-size: 40px;
+    color:#8CC63F; 
+}
 
-.title-container{
-height: 120px;
-margin-top:60px;}
-
-.fridge-char{padding-left:100px;
-font-size:40px;
-color:#8CC63F}
-.virtual-char{font-size: 40px;
-color:#8CC63F; }
-
-.user-icon{text-align: right;
-padding-top:8px}
+.user-icon {
+    text-align: right;
+    padding-top:8px;
+}
 
 /* About us css */
 
-.header-container{height: 50px;
-}
-h1{text-align: center;
-}
-.header1-container{
+.header-container {height: 50px;}
+
+h1 {text-align: center;}
+
+.header1-container {
     height:50px;
     text-align: center;
     
 }
-.aboutus-para{
+.aboutus-para {
     padding-top:10px;
     text-align: center;
 }
@@ -125,6 +132,7 @@ h1{text-align: center;
 
 /* Register CSS */
 
+<<<<<<< HEAD
 fieldset{}
 form{}
 .email{width:50px;
@@ -146,6 +154,28 @@ legend{font-size:15px !important;}
     background-color: white;
     color: white;
 }
+=======
+fieldset {
+    margin-top: 50px !important;
+    
+}
+form {}
+.email {
+    width:50px;
+    display:inline;
+    padding-right:57px;
+}
+.username {
+    display: inline;
+    padding-right:30px;
+}
+.password {
+    display: inline;
+    padding-right:30px;
+}
+
+legend {font-size:15px !important;}
+>>>>>>> 66eca6e0a43b6c521ec55081f0d2d707d9e69c00
 
 #alert { padding: 5px;
 text-align: center;}
@@ -186,7 +216,7 @@ hr {
 
 .recipe {
     
-     background-color: white;
+    background-color: white;
     opacity: 0.7;
     font-size: 26px;
     font-weight: bold;
@@ -212,25 +242,32 @@ hr {
 }
 
 /* Tips and trick CSS */
-.title-container{text-align: center;
-font-size:30px;
+
+.title-container {
+    text-align: center;
+    font-size:30px;
 }
 
-.article-bg{background-color: lawngreen;
-height: 80px;
-border-bottom: 1px solid green}
-
-.article{text-align: right;
-padding-top:5px;
+.article-bg {
+    background-color: lawngreen;
+    height: 80px;
+    border-bottom: 1px solid green;
 }
-#demo{height:auto;}
+
+.article {
+    text-align: right;
+    padding-top:5px;
+}
+
+#demo {height:auto;}
+
 .collapse.in {
   display: block!important;
 }
 
 /* Recipes CSS */
 
-.header-recipe h1{
+.header-recipe h1 {
     padding-top: 0px;
     margin-top:0px;
     text-align: left;
@@ -241,14 +278,19 @@ padding-top:5px;
 
 
 /* My Fridge */
-.my-fridge{font-size: 30px;
-padding-left:20px;
+
+.my-fridge {
+    font-size: 30px;
+    padding-left:20px;
     text-align: center;
 }
-.fridge-header{height:60px;
-background-color:springgreen;
+.fridge-header {
+    height:60px;
+    background-color:springgreen;
 }
-.content-txt{padding-left:30px;
-font-size:30px;}
+.content-txt {
+    padding-left:30px;
+    font-size:30px;
+}
 
 
