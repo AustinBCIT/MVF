@@ -349,6 +349,9 @@ hr {
 }
 
 /* Affiliates Page */
+<<<<<<< HEAD
+
+=======
 .affiliate-container {
     height:520px;
     border: 1px solid;
@@ -371,4 +374,5 @@ hr {
 .affiliates2 img {
     float:left;
 }
+>>>>>>> c74136930b1fd0a26f78f7946a71e3161b13afbe
 
