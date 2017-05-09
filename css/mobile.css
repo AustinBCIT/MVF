@@ -1,5 +1,13 @@
 body {}
 
+#navHeader {
+
+    width: 100%;
+    border-style: solid;
+    top: 0px;
+}
+
+
 .navbar{
     background-color:#8CC63F;
     margin-bottom: 0 !important;
