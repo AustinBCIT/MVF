@@ -353,4 +353,17 @@ hr {
 border: 1px solid;}
 
 .affiliates{height:80px}
+.affiliates td p{
+    margin-left: 40px; 
+}
+
+.affiliates2 {
+    height: 80px;
+}
+.affiliates2 p {
+    margin-left: 100px;
+}
+.affiliates2 img {
+    float:left;
+}
 
