@@ -346,6 +346,16 @@ hr {
     font-size:30px;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* Affiliates Page */
 
 .affiliate-container {
@@ -354,13 +364,12 @@ hr {
 }
 
 .affiliates{
-    height:80px;
+    height:150px;
     margin-bottom: 25px; !important;
 }
-.affiliates td p{
-    margin-left: 40px; 
-}
 
+
+.aff-descrip{height:80px}
 .affiliates2 {
     height: 80px;
 }
@@ -370,6 +379,7 @@ hr {
 .affiliates2 img {
     float:left;
 }
+
 
 /*Contact Us */
 
