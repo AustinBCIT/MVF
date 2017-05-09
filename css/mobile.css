@@ -63,7 +63,8 @@ body {}
     font-size: 26px;
     font-weight: bold;
     color: #66cd00;
-    height: 50px;   
+    height: 50px; 
+    text-align: left;
 }
 
 .contact {
@@ -75,6 +76,7 @@ body {}
     font-weight: bold;
     color: #66cd00;
     height: 50px;
+    text-align: left;
     
 }
 
@@ -86,6 +88,7 @@ body {}
     font-weight: bold;
     color: #66cd00;
     height: 50px;
+    text-align: left;
 
 }
 
@@ -273,6 +276,7 @@ hr {
     font-weight: bold;
     color: #66cd00;
     height: 50px;
+    text-align: left;
     
 }
 
