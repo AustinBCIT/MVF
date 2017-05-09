@@ -139,8 +139,69 @@ legend{font-size:15px !important;}
 
 
 
-/* Tips and trick CSS */
 
+/* Recipes Page */
+
+.done {
+    
+    background-color: limegreen;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 12px;
+    border:none;
+}
+
+.cancel {
+    
+    background-color: #f44336;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius:12px;
+    border: none;
+        
+}
+
+
+.recipeName {
+ 
+    font-weight: bold;
+    
+}
+
+hr {
+    
+    background-color: brown
+    
+}
+
+.recipe {
+    
+     background-color: white;
+    opacity: 0.7;
+    font-size: 26px;
+    font-weight: bold;
+    color: #66cd00;
+    height: 50px;
+    
+}
+
+.recipe-bg {
+    
+    background-image: url(Placeholder.png);
+    height: 100px;
+
+}
+
+
+ .ingredients {
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #66cd00;
+    border-radius: 15px;
+}
+
+/* Tips and trick CSS */
 .title-container{text-align: center;
 font-size:30px;
 }
