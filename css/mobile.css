@@ -207,7 +207,7 @@ input[type=email] {
     color: white;
     text-align: center;
 }
-=======
+
 fieldset {
     margin-top: 50px !important;
     
@@ -349,30 +349,17 @@ hr {
 }
 
 /* Affiliates Page */
-<<<<<<< HEAD
 
-=======
+
 .affiliate-container {
     height:520px;
     border: 1px solid;
 }
 
 .affiliates{
-    height:80px;
+    height:150px;
     margin-bottom: 25px; !important;
 }
-.affiliates td p{
-    margin-left: 40px; 
-}
 
-.affiliates2 {
-    height: 80px;
-}
-.affiliates2 p {
-    margin-left: 100px;
-}
-.affiliates2 img {
-    float:left;
-}
->>>>>>> c74136930b1fd0a26f78f7946a71e3161b13afbe
+.aff-descrip{height:80px}
 
