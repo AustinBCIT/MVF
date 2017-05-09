@@ -135,6 +135,13 @@ h1 {text-align: center;}
 
 /* Register CSS */
 
+#registerCentered
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 120%;
+}
+
 <<<<<<< HEAD
 fieldset{}
 form{}
