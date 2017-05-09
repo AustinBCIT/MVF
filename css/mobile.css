@@ -33,21 +33,21 @@ body {}
     padding: 0px !important;
 
 }
-.pic-container1{ 
+.pic-container1 { 
     background-color:forestgreen;
     background-repeat: no-repeat;
     height:125px;   
     background-image: url(celery1.jpg);
     padding:0px !important;
 }
-.pic-container2{ 
+.pic-container2 { 
     background-repeat: no-repeat;
     height:125px;
     background-image: url(smoothie.jpg);
     padding:0px !important;
 }
 
-.para-container{
+.para-container {
     padding-top:20px;
     color:black;
     font-style: none;
@@ -95,12 +95,12 @@ body {}
     color:white;
 }
 
-.title-container{
+.title-container {
     height: 120px;
     margin-top:60px;
 }
 
-.fridge-char{
+.fridge-char {
     padding-left:100px;
     font-size:40px;
     color:#8CC63F}
@@ -108,23 +108,23 @@ body {}
     color:#8CC63F; 
 }
 
-.user-icon{
+.user-icon {
     text-align: right;
     padding-top:8px;
 }
 
 /* About us css */
 
-.header-container{height: 50px;}
+.header-container {height: 50px;}
 
-h1{text-align: center;}
+h1 {text-align: center;}
 
-.header1-container{
+.header1-container {
     height:50px;
     text-align: center;
     
 }
-.aboutus-para{
+.aboutus-para {
     padding-top:10px;
     text-align: center;
 }
@@ -132,25 +132,26 @@ h1{text-align: center;}
 
 /* Register CSS */
 
-fieldset{}
-form{}
-.email{
+fieldset {
+    margin-top: 50px !important;
+    
+}
+form {}
+.email {
     width:50px;
     display:inline;
     padding-right:57px;
 }
-.username{
+.username {
     display: inline;
     padding-right:30px;
 }
-.password{
+.password {
     display: inline;
     padding-right:30px;
 }
 
-legend{font-size:15px !important;}
-
-
+legend {font-size:15px !important;}
 
 
 /* Recipes Page */
@@ -251,7 +252,8 @@ hr {
 
 
 /* My Fridge */
-.my-fridge{
+
+.my-fridge {
     font-size: 30px;
     padding-left:20px;
     text-align: center;
