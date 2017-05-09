@@ -1,3 +1,4 @@
+
 body {}
 
 #navHeader {
@@ -42,6 +43,7 @@ body {}
     padding: 0px !important;
 
 }
+
 .pic-container1 { 
     background-color:forestgreen;
     background-repeat: no-repeat;
@@ -143,7 +145,6 @@ h1 {text-align: center;}
     text-align: center;
 }
 
-
 /* Register CSS */
 
 #registerCentered
@@ -153,22 +154,26 @@ h1 {text-align: center;}
 	width: 120%;
 }
 
-<<<<<<< HEAD
 fieldset{}
-form{}
-.email{width:50px;
-display:inline;
-padding-right:57px;}
-.username{display: inline;
-padding-right:30px}
-.password{display: inline;
-padding-right:30px;}
-.password1{display: inline;
-padding-right: 55px; 
+
+.f-border {
+    display: block;
+    float: none;
+}
+.email{
+    display:inline;
+}
+.username{
+    display: inline;
+}
+.password{
+    display: inline;
+}
+.password1{
+    display: inline;
 }
 
 legend{font-size:15px !important;}
-
 
 input[type=submit] {
     width: 100%;
@@ -225,13 +230,42 @@ input[type=email] {
     color: white;
     text-align: center;
 }
-=======
+
 fieldset {
     margin-top: 50px !important;
-    
-    
+      
 }
-form {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .email {
     width:50px;
     display:inline;
@@ -246,8 +280,10 @@ form {}
     padding-right:30px;
 }
 
+form {}
+
+
 legend {font-size:15px !important;}
->>>>>>> 66eca6e0a43b6c521ec55081f0d2d707d9e69c00
 
 #alert { padding: 5px;
 text-align: center;}
@@ -305,7 +341,6 @@ hr {
 
 }
 
-
  .ingredients {
     
     border-style: solid;
@@ -349,7 +384,6 @@ hr {
     color: white;
 }
 
-
 /* My Fridge */
 
 .my-fridge {
@@ -366,23 +400,21 @@ hr {
     font-size:30px;
 }
 
-/* Affiliates Page */
-<<<<<<< HEAD
 
-=======
+/* Affiliates Page */
+
 .affiliate-container {
     height:520px;
     border: 1px solid;
 }
 
 .affiliates{
-    height:80px;
+    height:150px;
     margin-bottom: 25px; !important;
 }
-.affiliates td p{
-    margin-left: 40px; 
-}
 
+
+.aff-descrip{height:80px}
 .affiliates2 {
     height: 80px;
 }
@@ -392,5 +424,10 @@ hr {
 .affiliates2 img {
     float:left;
 }
->>>>>>> c74136930b1fd0a26f78f7946a71e3161b13afbe
 
+
+/*Contact Us */
+
+.groupphoto {
+    height:80px;
+}
