@@ -30,6 +30,7 @@ body {}
     background-repeat: no-repeat;
     height:125px;  
     background-image: url(foodwaste.jpg);
+    background-size: cover;
     padding: 0px !important;
 
 }
@@ -38,12 +39,14 @@ body {}
     background-repeat: no-repeat;
     height:125px;   
     background-image: url(celery1.jpg);
+    background-size: cover;
     padding:0px !important;
 }
 .pic-container2 { 
     background-repeat: no-repeat;
     height:125px;
     background-image: url(smoothie.jpg);
+    background-size:cover;
     padding:0px !important;
 }
 
