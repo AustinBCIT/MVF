@@ -349,10 +349,15 @@ hr {
 }
 
 /* Affiliates Page */
-.affiliate-container{height:400px;
-border: 1px solid;}
+.affiliate-container {
+    height:520px;
+    border: 1px solid;
+}
 
-.affiliates{height:80px}
+.affiliates{
+    height:80px;
+    margin-bottom: 25px; !important;
+}
 .affiliates td p{
     margin-left: 40px; 
 }
