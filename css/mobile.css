@@ -348,4 +348,9 @@ hr {
     font-size:30px;
 }
 
+/* Affiliates Page */
+.affiliate-container{height:400px;
+border: 1px solid;}
+
+.affiliates{height:80px}
 
