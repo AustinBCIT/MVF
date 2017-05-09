@@ -30,6 +30,7 @@ body {}
     background-repeat: no-repeat;
     height:125px;  
     background-image: url(foodwaste.jpg);
+    background-size: cover;
     padding: 0px !important;
 
 }
@@ -38,12 +39,14 @@ body {}
     background-repeat: no-repeat;
     height:125px;   
     background-image: url(celery1.jpg);
+    background-size: cover;
     padding:0px !important;
 }
 .pic-container2 { 
     background-repeat: no-repeat;
     height:125px;
     background-image: url(smoothie.jpg);
+    background-size:cover;
     padding:0px !important;
 }
 
@@ -132,10 +135,15 @@ h1 {text-align: center;}
     text-align: center;
 }
 
-
 /* Register CSS */
 
-<<<<<<< HEAD
+#registerCentered
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 120%;
+}
+
 fieldset{}
 form{}
 .email{width:50px;
@@ -229,7 +237,7 @@ form {}
 }
 
 legend {font-size:15px !important;}
->>>>>>> 66eca6e0a43b6c521ec55081f0d2d707d9e69c00
+
 
 #alert { padding: 5px;
 text-align: center;}
@@ -348,8 +356,17 @@ hr {
     font-size:30px;
 }
 
-/* Affiliates Page */
 
+
+
+
+
+
+
+
+
+
+/* Affiliates Page */
 
 .affiliate-container {
     height:520px;
@@ -361,5 +378,21 @@ hr {
     margin-bottom: 25px; !important;
 }
 
-.aff-descrip{height:80px}
 
+.aff-descrip{height:80px}
+.affiliates2 {
+    height: 80px;
+}
+.affiliates2 p {
+    margin-left: 100px;
+}
+.affiliates2 img {
+    float:left;
+}
+
+
+/*Contact Us */
+
+.groupphoto {
+    height:80px;
+}
