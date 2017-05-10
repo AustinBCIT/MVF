@@ -1,0 +1,23 @@
+/* Tips and trick CSS */
+
+.title-container {
+    text-align: center;
+    font-size:30px;
+}
+
+.article-bg {
+    background-color: lawngreen;
+    height: 80px;
+    border-bottom: 1px solid green;
+}
+
+.article {
+    text-align: right;
+    padding-top:5px;
+}
+
+#demo {height:auto;}
+
+.collapse.in {
+  display: block!important;
+}
