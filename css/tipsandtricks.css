@@ -1,5 +1,9 @@
 /* Tips and trick CSS */
 
+body {
+    background-color: #4CBA85 !important;
+}
+
 .title-container {
     text-align: center;
     font-size:30px;
