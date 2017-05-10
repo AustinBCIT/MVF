@@ -196,16 +196,16 @@ a {
   margin: 10px auto 20px;
 }
 
-.panel-footer p {
-  padding-bottom: 20px;
+.panel-footer-fridge {
+  margin: 0px;
+  position: fixed;
+    bottom: 0px;
 }
 
-.heart {
-  font-style: normal;
-  font-weight: 500;
-  color: #c0392b;
-  text-decoration: none;
+.panel-footer p {
+  padding-bottom: 0px;
 }
+
 
 .wedaBest {
     

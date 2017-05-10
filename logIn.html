@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Fridge Home</title>
+    <title>Register</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <script src="https://use.fontawesome.com/6c5f8d3c8b.js"></script>
     <script src="jquery-3.2.1.min.js"></script>
     <!--- Style Sheet --->
+    <link rel="stylesheet" href="css/register.css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
 	<!-- Custom Fonts -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/whhg.css">
+    
      <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -21,7 +22,25 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-      <meta charset="utf-8">
+    <script>
+    
+    function checkPassword() {
+        
+        var password = document.getElementById('checkPass').value;
+        var confirmPassword = document.getElementById('checkPass1').value;
+        
+        if (password != confirmPassword) {
+            document.getElementById('alert').innerHTML = "Passwords do not match!";
+            document.getElementById('alert').style.backgroundColor = '#f44336';
+        } else {
+            document.getElementById('alert').innerHTML = "Passwords match!";
+            document.getElementById('alert').style.backgroundColor = 'green';
+            
+        }
+    }
+        
+    </script>
+        <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="cleartype" content="on">
     <meta name="MobileOptimized" content="320">
@@ -35,90 +54,18 @@
       .btn-hamburger { left: auto; right: 12px;}
       .box { height: 1500px; }
         
-        
-        .fixPosition {
+        .logIn {
             
-            position: absolute;
-            bottom: 0px;
+            font-weight: bold;
+            font-size: 24px;
             
-        
             
         }
-        
         
     </style>
-    <script>
-    
-        var count = 1;
-
-function selected(){
-	var food = document.getElementsByClassName('click')
-	
-	for(let i = 0; i < food.length; i++){
-		food[i].onclick=function(){
-    
-            if (food[i].style.backgroundColor == "") {
-			food[i].style.backgroundColor="#b1d0ca"
-            
-            }
-            
-             else {
-            food[i].style.backgroundColor=""
-    
-        }
-            
-		}
-	}
-}
-
-onload=selected
-
-</script>
-    
-    
-    <style>
-    
-        .click {
-            
-                border-radius: 15px;
-    /* border: 2px solid #73AD21; */
-            padding: 2px;
-            
-            
-        }
-   
-        
-        #removeButton { 
-            
-            width: 100%;
-            height: 50px;
-            position: fixed;
-            bottom: 0; 
-            color: #444;
-        background-color: #7ad65c;
-        font-weight: bold;
-        font-size: 20px;
-            
-        }
-        
-        .food {
-    padding: 15px 0 0 0;
-    margin: auto;
-}
-.shelf {
-    border-bottom: 30px solid #A1A194;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    top: -15px;
-    z-index: -1;
-}
-        
-    </style>
-
-    
     </head>
 <body>
-   <nav id="menu" class="menu">
+ <nav id="menu" class="menu">
       <a href="https://github.com/mango/slideout" target="_blank">
         <header class="menu-header">
           <span class="menu-header-title">Tests</span>
@@ -183,35 +130,23 @@ onload=selected
         });
       };
     </script>
+    <div class="core-container">
+            
+            <div class="col-xs-12 col-md-12 title-container">
+                <p class="virtual-char">My Virtual Fridge
+               
+            </div>
+        </div>
     
-   
-    
-    
-<div class="container">
-    <div class="row">
-        <div class="col-xs-4 col-md-2"><img onclick="selected()" class="click" class="img-responsive food" src="images/018-orange.png"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/013-cheese.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/012-grapes.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
-        <div class="col-xs-4 col-md-2"><img src="images/009-sandwich.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/008-lemon.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/007-pizza.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-12 shelf"></div>
-        <div class="col-xs-4 col-md-2"><img src="images/006-raspberry.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/005-pineapple.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/004-cherries.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
-        <div class="col-xs-4 col-md-2"><img src="images/003-fries.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/002-chili.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-4 col-md-2"><img src="images/001-banana.png" onclick="selected()" class="click" class="img-responsive food"/></div>
-        <div class="col-xs-12 shelf"></div>
-    </div>
-    
-
-    </div>
-    
-         <div class="fixPosition" class="panel-footer-fridge"><button id="removeButton">Remove</button></div>
+    <div class="col-md-3"></div>
+        <form class="f-border col-xs-12 pull-xs-12 col-md-6 pull-md-12 mx-auto">
+            <fieldset class="f-border center-block">
+                <legend><h2>Log In</h2></legend>
+                <div class="username">Username</div><input type="text" required="required"><br><br>
+                <div class="password">Password</div> <input type="password" required="required" id="checkPass"><br><br>
+                <input type="submit">
+            </fieldset>
+        </form>
     </main>
     </body>
 </html>
-    
