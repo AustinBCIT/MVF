@@ -103,10 +103,11 @@ fieldset {
     padding-right:30px;
 }
 
-form {}
-
-
 legend {font-size:15px !important;}
 
 #alert { padding: 5px;
 text-align: center;}
+
+.virtual-char{font-size: 30px;
+color:green;
+padding-top: 10px;}
