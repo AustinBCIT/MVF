@@ -1,32 +1,38 @@
 /* Register CSS */
 
-#registerCentered
-{
+#registerCentered {
 	margin-left: auto;
 	margin-right: auto;
 	width: 120%;
 }
 
-fieldset{}
+fieldset {}
 
 .f-border {
     display: block;
     float: none;
 }
+
 .email{
     display:inline;
 }
+
 .username{
     display: inline;
 }
+
 .password{
     display: inline;
 }
+
 .password1{
     display: inline;
 }
 
-legend{font-size:15px !important;}
+legend{
+    font-size:15px !important;
+    text-align: center;
+}
 
 input[type=submit] {
     width: 100%;
@@ -36,10 +42,8 @@ input[type=submit] {
     margin: 8px 0;
     border: none;
     border-radius: 4px;
-    font-size: 20px; 
-    
+    font-size: 20px;    
 }
-
 
 input[type=text] {
     width: 100%;
@@ -105,9 +109,13 @@ fieldset {
 
 legend {font-size:15px !important;}
 
-#alert { padding: 5px;
-text-align: center;}
+#alert { 
+    padding: 5px;
+    text-align: center;
+}
 
-.virtual-char{font-size: 30px;
-color:green;
-padding-top: 10px;}
+.virtual-char{
+    font-size: 30px;
+    color:green;
+    padding-top: 10px;
+}
