@@ -30,6 +30,14 @@
     padding:0px !important;
 }
 
+.pic-container3 { 
+    background-repeat: no-repeat;
+    height:125px;
+    background-image: url(../images/meal.jpg);
+    background-size:cover;
+    padding:0px !important;
+}
+
 .para-container {
     padding-top:20px;
     color:black;
