@@ -6,8 +6,6 @@
 	width: 120%;
 }
 
-fieldset {}
-
 .f-border {
     display: block;
     float: none;
@@ -79,8 +77,6 @@ input[type=email] {
     font-size: 18px;
 }
 
-
-
 .alert {
     padding: 10px;
     background-color: white;
@@ -89,25 +85,8 @@ input[type=email] {
 }
 
 fieldset {
-    margin-top: 50px !important;
-      
+    margin-top: 50px !important;      
 }
-
-.email {
-    width:50px;
-    display:inline;
-    padding-right:57px;
-}
-.username {
-    display: inline;
-    padding-right:30px;
-}
-.password {
-    display: inline;
-    padding-right:30px;
-}
-
-legend {font-size:15px !important;}
 
 #alert { 
     padding: 5px;
