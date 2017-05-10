@@ -104,9 +104,9 @@ a {
  */
 .btn-hamburger {
   border: none;
-  position: absolute;
+  position:absolute;
   top: 0px;
-  left: 12px;
+  right: 0px;
   outline:none;
   width: 50px;
   height: 50px;
@@ -213,7 +213,7 @@ a {
   position: absolute;
   top: 0px;
   width: 100%;    
-  right: 60px;
+  right: 0px;
   outline:none;
   height: 50px;
   margin-bottom: 0px;
