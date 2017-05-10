@@ -32,115 +32,10 @@
       .box { height: 1500px; }
     </style>
     
-    <!-- Style for accordion function -->
-    <style>
-        
-        #addMe { 
-        
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        height: 50px;
-        color: #444;
-        background-color: #7ad65c;
-        font-weight: bold;
-        font-size: 20px;    
-            
-        }
-        
-        
-        
-        .click {
-                border-radius: 25px;
-    border: 2px solid #73AD21;
-            padding: 10px;
-            margin-left: 5px;
-            margin-right: 5px; 
-            margin-top: 5px
-            
-        }        
-       
-        #addButton {
-            
-            position: relative;
-            left: 203px;
-            width: 45px;
-            height: 45px;
-        }
-        
-          #addButton1 {
-            
-            position: relative;
-            left: 110px;
-            width: 45px;
-            height: 45px;
-              
-        }
-          #addButton2 {
-            
-            position: relative;
-            left: 67px;
-            width: 45px;
-            height: 45px;
-        
-        }
- 
-        button.input.accordion {
-            
-            background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-            
-        }
-        
-        button.input.accordion.active, button.input.accordion:hover {
-    background-color: #ddd; 
-}
-
-        
-        
-button.accordion {
-    background-color: beige;
-    color: #444;
-    cursor: pointer;
-    padding: 23px;
-    width: 100%;
-    border: 5px, solid, beige;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-    font-weight: bold;
-    font-size: 20px;
-
-}
-
-button.accordion:active {
-    background-color: greenyellow;
-}
-        
-button.accordion:hover {
-    background-color: beige;
-}
-
-div.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-}
-</style>
     
 <!-- Highlight or unhighlight food icons when clicked on -->    
-     <script>
-    
-    
-
+<script>
+         
 function selected(){
 	var food = document.getElementsByClassName('click')
 	
@@ -164,8 +59,8 @@ function selected(){
 onload=selected
 
 </script>
-    
-    </head>
+
+</head>
 <body>
      <nav id="menu" class="menu">
       <a href="https://github.com/mango/slideout" target="_blank">
@@ -180,7 +75,7 @@ onload=selected
           <li><a href="register.html">Sign in</a></li>
           <li><a href="fridgeMain.html">Fridge Main</a></li>
           <li><a href="fridge.html">Fridge</a></li>
-          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="realRecipes.html">Recipes</a></li>
           <li><a href="tips&tricks.html">Tips &amp; Tricks</a></li>
           <li><a href="aboutus.html">About us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -199,8 +94,6 @@ onload=selected
       </section>
     </nav>
 
-    
-    
     <main id="panel" class="panel">
       <header class="panel-header">
           <div class="wedaBest col-md-12">
@@ -213,7 +106,6 @@ onload=selected
           </button>
       </header>
 
-      
     <script src="dist/slideout.js"></script>
     <script>
       window.onload = function() {
@@ -232,9 +124,16 @@ onload=selected
         });
       };
     </script>
+    <div class="gap-fill col-md-12"></div>
     
-    
-    <button class="accordion"><div class="col-md-11 col-xs-9">Grains</div><div class="col-md-1 col-xs-1"><img  src="images/add.png"></div></button>
+    <button class="accordion">
+        <div class="col-md-11 col-xs-9">Grains
+        </div>
+        <div class="col-md-1 col-xs-1">
+            <img  src="images/add.png">
+        </div>
+    </button>
+        
 <div class="panel">
    <input onclick="selected()" class="click" type="image" src="images/grains/001-food-8.png">
     <input onclick="selected()" class="click" type="image" src="images/grains/002-food-7.png">
@@ -283,6 +182,13 @@ onload=selected
     <input onclick="selected()" class="click" type="image" src="images/021-apple.png" />
 </div>
 
+
+
+ <div class="button-container">
+        <button class="col-md-12 col-xs-12" id="addMe">Add</button>
+</div>
+    
+  
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -299,14 +205,8 @@ for (i = 0; i < acc.length; i++) {
     }
 }
 </script>
-
-    <div><button id="addMe">Add</button>
-    
-    </div>
-    
-    
-    
-</body>
+    </main>
+    </body>
 </html>
     
     
