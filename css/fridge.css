@@ -5,8 +5,26 @@
     color: #444;
     background-color: #7ad65c;
     font-weight: bold;
-    font-size: 20px;         
+    font-size: 20px;  
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }   
+
+html, body {
+    
+    height: 100%;
+    margin: 0;
+    
+}
+
+
+#length {
+    
+    min-height: 100%;
+    
+}
+
         
 .click {
     border-radius: 25px;
@@ -67,6 +85,3 @@ div.panel {
     background-color: white;
 }
 
-.button-container{height:500px;
-    
-}
