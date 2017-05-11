@@ -1,6 +1,8 @@
 .title-container{
     margin-top: 40px; 
-    width: 220px !important;
+    margin-bottom:40px;
+    padding:0px !important;
+  
 }
 
 .pic-container{ 
@@ -91,18 +93,11 @@
     color:white;
 }
 
-.fridge-char {
-    padding-left:20px;
-    font-size:40px;
-    color:black;;
-    background-color: orange;
-    font-weight: bold;
 
-}
     .virtual-char{font-size: 40px;
     color: black;
         background-color: orange;
         font-weight: bold;
         height: 90px !important;
-        width: 100%;
+        padding-top:30px
 }

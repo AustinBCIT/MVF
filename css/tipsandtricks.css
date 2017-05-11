@@ -14,8 +14,9 @@ body {
 }
 
 .stretch {
-    
+    color:black;
     height: 90px;
+    padding-top:30px
     
 
 }
@@ -97,11 +98,12 @@ body {
     
     background-color: white;
     opacity: 0.7;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
     height: 50px;
     text-align: left;
+    padding-top:20px;
     
 }
 
@@ -110,6 +112,8 @@ body {
 .collapse.in {
   display: block!important;
 }
+
+.header-border{}
 
 
 
