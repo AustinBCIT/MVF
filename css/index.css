@@ -94,7 +94,15 @@
 .fridge-char {
     padding-left:20px;
     font-size:40px;
-    color:#8CC63F}
+    color:black;;
+    background-color: orange;
+    font-weight: bold;
+
+}
     .virtual-char{font-size: 40px;
-    color:#8CC63F; 
+    color: black;
+        background-color: orange;
+        font-weight: bold;
+        height: 90px !important;
+        width: 100%;
 }
