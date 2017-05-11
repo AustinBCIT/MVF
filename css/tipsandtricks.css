@@ -10,42 +10,37 @@ body {
     height: 90px !important;
     background-color: orange;
     color: white;
-    font-weight: bold;
+    font-weight: bold;    
 }
 
-.stretch {
-    
-    height: 90px;
-    
-}
 
 .article-bg-fridge{
     
-     background-image: url(../images/fridge.jpg);
+    background-image: url(../images/fridge.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
 
 .article-bg-bread{
     
-     background-image: url(../images/bread.jpg);
+    background-image: url(../images/bread.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
 
 .article-bg-rice{
     
-     background-image: url(../images/rice.jpg);
+    background-image: url(../images/rice.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
 
 .article-bg-banana{
     
-     background-image: url(../images/banana.jpg);
+    background-image: url(../images/banana.jpg);
     height: 100px;
     margin: 5px;
     
@@ -53,44 +48,43 @@ body {
 
 .article-bg-eggs{
     
-     background-image: url(../images/eggs.jpg);
+    background-image: url(../images/eggs.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
 
 .article-bg-cereal{
     
-     background-image: url(../images/cereal.jpg);
+    background-image: url(../images/cereal.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
 
 .article-bg-meat{
     
-     background-image: url(../images/meat.jpg);
+    background-image: url(../images/meat.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
 
 .article-bg-fruit{
     
-     background-image: url(../images/fruit.jpg);
+    background-image: url(../images/fruit.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
 
 .article-bg-cheese{
     
-     background-image: url(../images/cheese.jpg);
+    background-image: url(../images/cheese.jpg);
     height: 100px;
-     margin: 5px;
+    margin: 5px;
     
 }
-
 
 .article {
     
@@ -104,30 +98,11 @@ body {
     
 }
 
+.article p {
+}
+
 #demo {height:auto;}
 
 .collapse.in {
   display: block!important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
