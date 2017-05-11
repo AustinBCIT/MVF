@@ -7,18 +7,102 @@ body {
 .title-container {
     text-align: center;
     font-size:30px;
-    height: 70px !important;
+    height: 90px !important;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
 }
 
-.article-bg {
-    background-color: seagreen;
-    height: 80px;
-    border-bottom: 1px solid green;
+.stretch {
+    
+    height: 90px;
+    
+
 }
+
+.article-bg-fridge{
+    
+     background-image: url(../images/fridge.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
+.article-bg-bread{
+    
+     background-image: url(../images/bread.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
+.article-bg-rice{
+    
+     background-image: url(../images/rice.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
+.article-bg-banana{
+    
+     background-image: url(../images/banana.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-eggs{
+    
+     background-image: url(../images/eggs.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
+.article-bg-cereal{
+    
+     background-image: url(../images/cereal.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
+.article-bg-meat{
+    
+     background-image: url(../images/meat.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
+.article-bg-fruit{
+    
+     background-image: url(../images/fruit.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
+.article-bg-cheese{
+    
+     background-image: url(../images/cheese.jpg);
+    height: 100px;
+     margin: 5px;
+    
+}
+
 
 .article {
-    text-align: right;
-    padding-top:5px;
+    
+    background-color: white;
+    opacity: 0.7;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    text-align: left;
+    
 }
 
 #demo {height:auto;}
@@ -26,3 +110,25 @@ body {
 .collapse.in {
   display: block!important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
