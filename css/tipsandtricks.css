@@ -7,7 +7,16 @@ body {
 .title-container {
     text-align: center;
     font-size:30px;
-    height: 70px !important;
+    height: 90px !important;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+.stretch {
+    
+    height: 90px;
+    
 }
 
 .article-bg-fridge{
