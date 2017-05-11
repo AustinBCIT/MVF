@@ -4,9 +4,11 @@
 .affiliates {
     height:150px;
     margin-bottom: 25px; !important;
+    padding-top:50px;
 }
 
-.aff-descrip {height:80px;}
+.aff-descrip {height:80px;
+font-size: 15px;}
 
 .dropdown {padding-top:5px;}
 
@@ -15,4 +17,12 @@
     text-align: center;
     margin-top: 30px;
     margin-bottom: 80px;
+    padding-top: 50px;
 }
+
+.aff-content1{padding-left: 0px !important;}
+
+.meal{}
+
+.aff-image{}
+.aff-image1{padding-left:0px !important}
