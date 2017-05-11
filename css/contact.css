@@ -30,4 +30,8 @@ table {
 
 td p {
     margin-left: 40px;
+    display: block;
+}
+.greg p{
+    margin-left: 69px;
 }
