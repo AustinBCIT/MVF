@@ -6,7 +6,9 @@
 }
 
 h1 {text-align: center;
-    font-weight: bold;}
+    font-weight: bold;
+    
+}
 
 .header1-container {
     height:50px;
@@ -16,4 +18,11 @@ h1 {text-align: center;
 .aboutus-para {
     padding-top:10px;
     text-align: center;
+}
+
+.header11-container {
+    height:50px;
+    text-align: center;
+    font-size: 28px;
+    
 }

@@ -95,6 +95,9 @@ fieldset {
 
 .virtual-char{
     font-size: 30px;
-    color:green;
+    color:black;
     padding-top: 10px;
+    font-weight: bold;
+    background-color: #f37a3d;
 }
+
