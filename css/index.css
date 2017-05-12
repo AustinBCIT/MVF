@@ -52,6 +52,7 @@
 
 .para-container p {
     margin-top: 15px;
+   
 }
 
 .about {  
@@ -96,8 +97,9 @@
 
     .virtual-char{font-size: 40px;
     color: black;
-        background-color: #f37a3d;
+        background-color: #49b390;
         font-weight: bold;
         height: 90px !important;
         padding-top:30px
 }
+
