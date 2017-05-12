@@ -1,8 +1,11 @@
 
 /* About us css */
 
-.header-container {height: 50px;
-            background-color: #f37a3d;
+.header-container {
+background-color: #49b390;
+margin-top:14px;
+padding-bottom: 0px;
+    
 }
 
 h1 {text-align: center;
