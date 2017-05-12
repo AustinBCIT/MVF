@@ -10,15 +10,14 @@
 .aff-descrip {height:80px;
 font-size: 15px;}
 
-.dropdown {padding-top:5px;}
 
 .title-container {
     font-size: 40px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 80px;
-    padding-top: 50px;
-    background-color: #f37a3d;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-top:17px;
+    padding-bottom:10px;
+    background-color: #49b390;
 }
 
 .aff-content1{padding-left: 0px !important;}
