@@ -1,9 +1,12 @@
 
 /* About us css */
 
-.header-container {height: 50px;}
+.header-container {height: 50px;
+            background-color: #f37a3d;
+}
 
-h1 {text-align: center;}
+h1 {text-align: center;
+    font-weight: bold;}
 
 .header1-container {
     height:50px;
