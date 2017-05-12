@@ -96,7 +96,7 @@
 
     .virtual-char{font-size: 40px;
     color: black;
-        background-color: orange;
+        background-color: #f37a3d;
         font-weight: bold;
         height: 90px !important;
         padding-top:30px
