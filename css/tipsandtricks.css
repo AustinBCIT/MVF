@@ -116,6 +116,9 @@ body {
 }
 
 .header-border{}
+.content-text{text-align:left;
+font-size:20px;
+font-family:sans-serif,"Verdana"}
 
 
 
@@ -137,7 +140,3 @@ body {
 
 
 
-
-=======
-}
->>>>>>> 1c7a63ce13b4975bbf6b3ed3cf5bd719fd6a1f2d
