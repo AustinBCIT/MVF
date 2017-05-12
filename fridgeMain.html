@@ -9,9 +9,10 @@
     <script src="jquery-3.2.1.min.js"></script>
     <!--- Style Sheet --->
     <link href="css/nav.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/frideMain.css">
 	<!-- Custom Fonts -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/whhg.css">
+    
      <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -33,31 +34,7 @@
     <style>
       .slideout-menu { left: auto; }
       .btn-hamburger { left: auto; right: 12px;}
-      .box { height: 1500px; }
-        
-        
-        .fixPosition {
-            
-            position: absolute;
-            bottom: 0px;
-               
-        }
-        
-html, body {
-    
-    height: 100%;
-    margin: 0;
-    
-        }
-
-
-#length {
-    
-    min-height: 100%;
-    
-}
-        
-        
+      .box { height: 1500px; }   
     </style>
     <script>
     
@@ -86,48 +63,6 @@ function selected(){
 onload=selected
 
 </script>
-    
-    
-    <style>
-    
-        .click {
-            
-                border-radius: 15px;
-    /* border: 2px solid #73AD21; */
-            padding: 2px;
-            
-            
-        }
-   
-        
-        #removeButton { 
-            
-            width: 100%;
-            height: 50px;
-            position: fixed;
-            bottom: 0; 
-            color: #444;
-        background-color: #7ad65c;
-        font-weight: bold;
-        font-size: 20px;
-            
-        }
-        
-        .food {
-    padding: 15px 0 0 0;
-    margin: auto;
-}
-.shelf {
-    border-bottom: 30px solid #A1A194;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    top: -15px;
-    z-index: -1;
-}
-        
-    </style>
-
-    
     </head>
 <body id="length">
    <nav id="menu" class="menu">
@@ -159,7 +94,7 @@ onload=selected
       <header class="panel-header">
           <div class="wedaBest col-md-12">
               <div class="img-container col-xs-1 col-md-1">
-                  <a href="mobileindex.html"><img src="images/mvf_logo.png"></a>
+                  <a href="mobileindex.html"><img src="images/mvfmvf_361.png"></a>
               </div>
           </div>
           <button class="btn-hamburger js-slideout-toggle">
@@ -207,6 +142,7 @@ onload=selected
         <div class="col-xs-4 col-md-2"><img src="images/003-fries.png" onclick="selected()" class="click" class="img-responsive food"/></div>
         <div class="col-xs-4 col-md-2"><img src="images/002-chili.png" onclick="selected()" class="click" class="img-responsive food"/></div>
         <div class="col-xs-4 col-md-2"><img src="images/001-banana.png" onclick="selected()" class="click" class="img-responsive food"/></div>
+        
         <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
         <div class="col-xs-4 col-md-2"><img src="images/003-fries.png" onclick="selected()" class="click" class="img-responsive food"/></div>
         <div class="col-xs-4 col-md-2"><img src="images/002-chili.png" onclick="selected()" class="click" class="img-responsive food"/></div>
