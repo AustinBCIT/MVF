@@ -2,7 +2,7 @@
 
 .done {
     
-    background-color: limegreen;
+    background-color:#49b390;
     color: whitesmoke;
     font-size: 18px;
     border-radius: 12px;
@@ -28,7 +28,7 @@
 
 hr {
     
-    background-color: brown
+    background-color: #f37a3d;
     
 }
 
@@ -58,7 +58,7 @@ hr {
     
     border-style: solid;
     border-width: 2px;
-    border-color: #66cd00;
+    border-color: #49b390;
     border-radius: 15px;
 }
 

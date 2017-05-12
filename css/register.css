@@ -34,7 +34,7 @@ legend{
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #49b390;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -98,6 +98,11 @@ fieldset {
     color:black;
     padding-top: 10px;
     font-weight: bold;
+    background-color: #f37a3d;
+}
+
+.title-container {
+    padding-top: 10px;
     background-color: #f37a3d;
 }
 

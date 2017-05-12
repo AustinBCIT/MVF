@@ -20,12 +20,21 @@
 }
 
 .title-container {
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
-    margin-top: 80px;
-    background-color: #49b390;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #f37a3d;
     padding-top:10px;
     padding-bottom:10px;
+    width: 100%;
+}
+
+.container2 {
+    
+    padding-left: 0;
+    padding-right: 0;
+    
 }
 
 table {
