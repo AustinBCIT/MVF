@@ -1,18 +1,18 @@
-.title-container{
+/* mobileindex.html CSS */
+
+.title-container {
     margin-top: 20px; 
     margin-bottom:20px;
-    padding:0px !important;
-  
+    padding:0px !important; 
 }
 
-.pic-container{ 
+.pic-container { 
     background-color:green;
     background-repeat: no-repeat;
     height:125px;  
     background-image: url(../images/foodwaste.jpg);
     background-size: cover;
     padding: 0px !important;
-
 }
 
 .pic-container1 { 
@@ -50,10 +50,7 @@
     padding-right: 0px !important;
 }
 
-.para-container p {
-    margin-top: 15px;
-   
-}
+.para-container p {margin-top: 15px;}
 
 .about {  
     background-color: white;
@@ -66,19 +63,16 @@
 }
 
 .contact {    
-
     background-color: white;
     opacity: 0.7;
     font-size: 26px;
     font-weight: bold;
     color: black;
     height: 50px;
-    text-align: left;
-    
+    text-align: left;   
 }
 
-.tips {
-    
+.tips {    
     background-color: white;
     opacity: 0.7;
     font-size: 26px;
@@ -86,7 +80,6 @@
     color: black;
     height: 50px;
     text-align: left;
-
 }
 
 .icon {
@@ -94,12 +87,20 @@
     color:white;
 }
 
-
-    .virtual-char{font-size: 40px;
+.virtual-char {
+    font-family: 'Lobster', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lemonada', cursive;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Arima Madurai', cursive;
+    font-family: 'Allan', cursive;
+    font-family: 'Chau Philomene One', sans-serif;
+    font-family: 'IM Fell French Canon', serif;
+    font-family: 'Amatica SC', cursive;
+    font-size: 40px;
     color: black;
-        background-color: #f37a3d;
-        font-weight: bold;
-        height: 90px !important;
-        padding-top:30px
+    background-color: #f37a3d;
+    font-weight: bold;
+    height: 90px !important;
+    padding-top:30px
 }
-
