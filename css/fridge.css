@@ -67,7 +67,7 @@ button.accordion {
     font-size: 22px;
 }
 
-.something{
+.something {
     display: inline-block;
 }
 
@@ -84,4 +84,3 @@ div.panel {
     display: none;
     background-color: white;
 }
-
