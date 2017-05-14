@@ -48,6 +48,30 @@
         }
         
     </style>
+      <script>
+        
+        var succ = 1;
+        
+        function blurr() {
+            
+            
+            
+           var x = document.getElementById('weo');
+            
+            if (succ == 1) {
+           x.style.webkitFilter="blur(2px)";
+                succ = 0;
+            } 
+            else if (succ == 0) {
+                x.style.webkitFilter="blur(0px)";
+                succ = 1;
+            }
+            
+            
+        }
+        
+        
+    </script>
     </head>
 <body style="background-color:##72bcd4">
  <nav id="menu" class="menu">

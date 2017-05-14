@@ -40,9 +40,34 @@
             
         }
     }
+    
         
     </script>
     
+      <script>
+        
+        var succ = 1;
+        
+        function blurr() {
+            
+            
+            
+           var x = document.getElementById('weo');
+            
+            if (succ == 1) {
+           x.style.webkitFilter="blur(2px)";
+                succ = 0;
+            } 
+            else if (succ == 0) {
+                x.style.webkitFilter="blur(0px)";
+                succ = 1;
+            }
+            
+            
+        }
+        
+        
+    </script>
     <!-- jQuery slider -->
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -84,7 +109,7 @@
     </nav>
 
     
-    
+    <div id="weo">
     <main id="panel" class="panel">
       <header class="panel-header">
           <div class="wedaBest col-md-12">
@@ -92,7 +117,7 @@
                   <a href="mobileindex.html"><img src="images/mvfmvf_361.png"></a>
               </div>
           </div>
-          <button class="btn-hamburger js-slideout-toggle">
+          <button class="btn-hamburger js-slideout-toggle" onclick="blurr()">
               <i class="fa fa-bars" aria-hidden="true"></i>
           </button>
       </header>
@@ -137,5 +162,6 @@
             </fieldset>
         </form>
     </main>
+    </div>
     </body>
 </html>

@@ -1,3 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Aldrich);
+
+    .virtual-char{font-size: 40px;
+    color: black;
+        background-color: #f37a3d;
+        font-weight: bold;
+        height: 90px !important;
+        padding-top:30px;
+             font-family: 'Aldrich', sans-serif;
+}
+
+
 .title-container{
     margin-top: 20px; 
     margin-bottom:20px;
@@ -95,11 +107,5 @@
 }
 
 
-    .virtual-char{font-size: 40px;
-    color: black;
-        background-color: #f37a3d;
-        font-weight: bold;
-        height: 90px !important;
-        padding-top:30px
-}
+
 
