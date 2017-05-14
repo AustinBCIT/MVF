@@ -1,0 +1,145 @@
+/* Tips and trick CSS */
+
+body {
+    background-color: #4CBA85 !important;
+}
+
+.title-container {
+    text-align: center;
+    font-size:30px;
+    height: 90px !important;
+    background-color: #f37a3d;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.stretch {
+    color:black;
+    height: 90px;
+    padding-top:30px
+    
+
+}
+
+.article-bg-fridge{
+    
+    background-image: url(../images/fridge.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-bread{
+    
+    background-image: url(../images/bread.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-rice{
+    
+    background-image: url(../images/rice.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-banana{
+    
+    background-image: url(../images/banana.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-eggs{
+    
+    background-image: url(../images/eggs.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-cereal{
+    
+    background-image: url(../images/cereal.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-meat{
+    
+    background-image: url(../images/meat.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-fruit{
+    
+    background-image: url(../images/fruit.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article-bg-cheese{
+    
+    background-image: url(../images/cheese.jpg);
+    height: 100px;
+    margin: 5px;
+    
+}
+
+.article {
+    
+    background-color: white;
+    opacity: 0.7;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    text-align: left;
+    padding-top:20px;
+    
+}
+
+.article p {
+}
+
+#demo {height:auto;}
+
+.collapse.in {
+  display: block!important;
+}
+
+.header-border{}
+.content-text{text-align:left;
+font-size:20px;
+font-family:sans-serif,"Verdana"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
