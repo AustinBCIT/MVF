@@ -1,0 +1,44 @@
+
+
+/*Contact Us */
+
+.affiliates {
+    height:150px;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+   
+}
+
+.border {
+    margin-top: 50px;
+    display: block;
+}
+
+.groupphoto {
+    margin-top: 40px;
+    height:80px;
+}
+
+.title-container {
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #f37a3d;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100%;
+}
+
+.container2 {
+    
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.affiliates {
+    height:150px;
+    margin-bottom: 25px; !important;
+    padding-top:40px;
+}

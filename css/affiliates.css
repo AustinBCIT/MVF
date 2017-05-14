@@ -1,0 +1,29 @@
+
+/* Affiliates Page */
+
+.affiliates {
+    height:150px;
+    margin-bottom: 25px; !important;
+    padding-top:50px;
+}
+
+.aff-descrip {height:80px;
+font-size: 15px;}
+
+
+.title-container {
+    font-size: 38px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-top:17px;
+    padding-bottom:10px;
+    background-color: #f37a3d;
+    font-weight: bold;
+}
+
+.aff-content1{padding-left: 0px !important;}
+
+.meal{}
+
+.aff-image{}
+.aff-image1{padding-left:0px !important}
