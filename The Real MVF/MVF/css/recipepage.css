@@ -1,0 +1,98 @@
+/* Recipes Page */
+
+.done {
+    
+    background-color:#49b390;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 12px;
+    border:none;
+}
+
+.cancel {
+    
+    background-color: #f44336;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius:12px;
+    border: none;
+        
+}
+
+
+.recipeName {
+ 
+    font-weight: bold;
+    
+}
+
+hr {
+    
+    background-color: #f37a3d;
+    
+}
+
+.recipe {
+    
+    background-color: white;
+    opacity: 0.7;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    height: 50px;
+    text-align: left;
+    
+}
+
+.recipe-bg {
+    
+    background-image: url(../images/Placeholder.png);
+    height: 100px;
+
+}
+
+
+
+
+ .ingredients {
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #49b390;
+    border-radius: 15px;
+}
+
+/* Tips and trick CSS */
+
+.title-container {
+    text-align: center;
+    font-size:30px;
+}
+
+.article-bg {
+    background-color: lawngreen;
+    height: 80px;
+    border-bottom: 1px solid green;
+}
+
+.article {
+    text-align: right;
+    padding-top:5px;
+}
+
+#demo {height:auto;}
+
+.collapse.in {
+  display: block!important;
+}
+
+/* Recipes CSS */
+
+.header-recipe h1 {
+    padding-top: 0px;
+    margin-top:0px;
+    text-align: left;
+    padding-left: 60px;
+    background-color:#8CC63F;
+    color: white;
+}

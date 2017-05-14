@@ -1,0 +1,123 @@
+/* Fridge CSS */
+      
+#addMe { 
+    height: 50px;
+    color: #444;
+    background-color: #EAEFF2;
+    font-weight: bold;
+    font-size: 20px;  
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}   
+
+html, body {
+    
+    height: 100%;
+    margin: 0;
+    
+}
+
+button {
+    
+       border: 0;
+    background: none;
+    -webkit-appearance: none;
+    
+}
+
+#length {
+    
+    min-height: 100%;
+    
+}
+
+#fridge {
+    
+       position: fixed;
+    height: 70px;
+    color: #444;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;  
+    bottom: 0px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    
+}
+
+#profile {
+    
+    position: fixed;
+    left: 0px;
+    height: 50px;
+    color: #444;
+    background-color: #EAEFF2;
+    font-weight: bold;
+    font-size: 20px;  
+    bottom: 0px;
+
+    
+}
+
+        
+.click {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-top: 5px
+            
+}        
+      
+button.input.accordion {      
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+        
+button.input.accordion.active, button.input.accordion:hover {
+    background-color: #ddd; 
+}        
+        
+button.accordion {
+    background-color: #434247;
+    color: #34C3D3;
+    cursor: pointer;
+    padding: 23px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid #34C3D3;
+    
+}
+
+.something{
+    display: inline-block;
+}
+
+button.accordion:active {
+    background-color: greenyellow;
+}
+        
+button.accordion:hover {
+    background-color: #EAEFF2;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
