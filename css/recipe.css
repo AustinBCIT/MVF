@@ -1,0 +1,35 @@
+.ingredients-header{
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: #1481a0;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.ingredients-container{
+    border:1px solid;
+    border-radius: 20px;
+    text-align: left;
+    background-color: #eaeff2;
+}
+
+.directions-header{
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: #1481a0;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.direction-container{
+     border:1px solid;
+    border-radius: 20px;
+    text-align: left;
+    background-color: #eaeff2;
+}
+
+.list-item{
+    padding-top:10px;
+}
