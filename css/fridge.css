@@ -7,8 +7,7 @@
     font-weight: bold;
     font-size: 20px;  
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    
 }   
 
 html, body {
@@ -27,38 +26,11 @@ button {
 }
 
 #length {
-    
     min-height: 100%;
-    
 }
 
-#fridge {
-    
-       position: fixed;
-    height: 70px;
-    color: #444;
-    background-color: white;
-    font-weight: bold;
-    font-size: 20px;  
-    bottom: 0px;
-    border-top-left-radius: 45px;
-    border-top-right-radius: 45px;
-    
-}
 
-#profile {
-    
-    position: fixed;
-    left: 0px;
-    height: 50px;
-    color: #444;
-    background-color: #EAEFF2;
-    font-weight: bold;
-    font-size: 20px;  
-    bottom: 0px;
 
-    
-}
 
         
 .click {
@@ -90,7 +62,7 @@ button.input.accordion.active, button.input.accordion:hover {
         
 button.accordion {
     background-color: #434247;
-    color: #34C3D3;
+    color: #34d387;
     cursor: pointer;
     padding: 23px;
     width: 100%;
@@ -99,7 +71,7 @@ button.accordion {
     transition: 0.4s;
     font-weight: bold;
     font-size: 22px;
-    border: 1px solid #34C3D3;
+    border: 1px solid #34d387;
     
 }
 
@@ -131,4 +103,6 @@ overflow:auto;
 border:1px solid;}
 
 .add-fridge{margin-top:50px;
-height:40px;}
+height:40px;
+
+}
