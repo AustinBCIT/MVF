@@ -121,3 +121,14 @@ div.panel {
     background-color: white;
 }
 
+.item-holder{height:130px;
+    border:1px solid;   
+}
+
+.item-box{height:100px;
+margin-top:15px;
+overflow:auto;
+border:1px solid;}
+
+.add-fridge{margin-top:50px;
+height:40px;}
