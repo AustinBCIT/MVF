@@ -1,14 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Aldrich);
 
-    .virtual-char{font-size: 40px;
-    color: black;
-        background-color: #f37a3d;
-        font-weight: bold;
-        height: 90px !important;
-        padding-top:30px;
-             font-family: 'Aldrich', sans-serif;
-}
 
+
+    
+    @import url(https://fonts.google.com/?selection.family=Muli);
+    
+    body {
+        
+        font-family: 'Muli', sans-serif;
+        
+    }
+    
 
 .title-container{
     margin-top: 20px; 
@@ -17,15 +18,22 @@
   
 }
 
+
+
 .pic-container{ 
-    background-color:green;
+
     background-repeat: no-repeat;
     height:125px;  
-    background-image: url(../images/foodwaste.jpg);
+   background-image: url(../images/grayscale_image.png); 
     background-size: cover;
     padding: 0px !important;
+   
+
 
 }
+
+
+
 
 .pic-container1 { 
     background-color:forestgreen;
@@ -47,7 +55,7 @@
 .pic-container3 { 
     background-repeat: no-repeat;
     height:125px;
-    background-image: url(../images/meal.jpg);
+    background-image: url(../images/recipe.jpg);
     background-size:cover;
     padding:0px !important;
 }
@@ -68,34 +76,36 @@
 }
 
 .about {  
-    background-color: white;
-    opacity: 0.7;
+    background-color: #0E735D;
+    opacity: 0.9;
+    font-family: 'Muli', sans-serif;
     font-size: 26px;
     font-weight: bold;
-    color: black;
+    color: white;
     height: 50px; 
     text-align: left;
 }
 
 .contact {    
 
-    background-color: white;
-    opacity: 0.7;
+     font-family: 'Muli';
+    background-color: #0E735D;
+    opacity: 0.9;
     font-size: 26px;
     font-weight: bold;
-    color: black;
+    color: white;
     height: 50px;
     text-align: left;
-    
+
 }
 
 .tips {
-    
-    background-color: white;
-    opacity: 0.7;
+    font-family: 'Muli';
+    background-color: #0E735D;
+    opacity: 0.9;
     font-size: 26px;
     font-weight: bold;
-    color: black;
+    color: white;
     height: 50px;
     text-align: left;
 
@@ -104,6 +114,16 @@
 .icon {
     font-size: 30px;
     color:white;
+}
+
+
+    .virtual-char{font-size: 40px;
+    color: white;
+        background-color: #0E735D;
+        font-weight: bold;
+        height: 90px !important;
+        padding-top:30px;
+        font-family: 'Muli';
 }
 
 

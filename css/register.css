@@ -34,7 +34,7 @@ legend{
 
 input[type=submit] {
     width: 100%;
-    background-color: #72bcd4; 
+    background-color: #0E735D; 
     border-style: solid;
     border-width: 2px;
     border-color: white;
@@ -81,7 +81,7 @@ input[type=email] {
 
 .alert {
     padding: 10px;
-    background-color: #72bcd4;
+    background-color: #EAEFF2;
     color: white;
     text-align: center;
 }
@@ -94,7 +94,7 @@ fieldset {
 
 form {
     
-    background-color: #72bcd4;
+    background-color: #EAEFF2;
     
 }
 
@@ -105,15 +105,15 @@ form {
 
 .virtual-char{
     font-size: 30px;
-    color:black;
+    color:white;
     padding-top: 10px;
     font-weight: bold;
-    background-color: #f37a3d;
+    background-color: #0E735D;
 }
 
 .title-container {
     padding-top: 10px;
-    background-color: #f37a3d;
+    background-color: #0E735D;
 }
 .glowing-border {
     border: 2px solid #dadada;

@@ -40,10 +40,12 @@ html, body {
             height: 50px;
             position: fixed;
             bottom: 0; 
-            color: #444;
-        background-color: #49b390;
+            color: #EAEFF2;
+        background-color: #0E735D;
         font-weight: bold;
         font-size: 20px;
+            border: 0;
+    -webkit-appearance: none;
             
         }
         

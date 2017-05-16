@@ -10,7 +10,7 @@ body {
 
 body,
 .panel {
-  background-color: #fff;
+  background-color: #434247;
   margin-bottom: 0px;
 }
 
@@ -111,7 +111,7 @@ a {
   outline:none;
   width: 50px;
   height: 50px;
-  background-color: #1481A0;    
+  background-color: #0E735D;    
 }
 
 /**
@@ -228,3 +228,29 @@ a {
     
       
 }
+
+.mvf {
+    
+    font-size: 34px;
+    position: fixed;
+    top: 15px;
+    left: 9px;
+    color: #434247;
+    letter-spacing: 3px;
+    /* font-weight: bold; logo looks better unbolded */ 
+      
+}
+
+.mvf1 {
+    
+    font-size: 34px;
+    position: fixed;
+    top: 15px;
+    left: 67px;
+    color: #0E735D;
+    letter-spacing: 3px;
+    font-weight: bold;
+      
+}
+
+
