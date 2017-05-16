@@ -35,7 +35,7 @@ button {
         
 .click {
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid #eaeff2;
     padding: 10px;
     margin-left: 5px;
     margin-right: 5px; 
@@ -61,8 +61,8 @@ button.input.accordion.active, button.input.accordion:hover {
 }        
         
 button.accordion {
-    background-color: #434247;
-    color: #34d387;
+    background-color: #eaeff2;
+    color: #0E735D;
     cursor: pointer;
     padding: 23px;
     width: 100%;
@@ -71,9 +71,10 @@ button.accordion {
     transition: 0.4s;
     font-weight: bold;
     font-size: 22px;
-    border: 1px solid #34d387;
+    border: 1px solid #0E735D;
     
 }
+
 
 .something{
     display: inline-block;
@@ -84,13 +85,14 @@ button.accordion:active {
 }
         
 button.accordion:hover {
-    background-color: #EAEFF2;
+    background-color: #0e735d;
+    color: #eaeff2;
 }
 
 div.panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: #A1A194;
 }
 
 .item-holder{height:130px;
