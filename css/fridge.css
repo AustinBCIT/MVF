@@ -35,7 +35,7 @@ button {
         
 .click {
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid #eaeff2;
     padding: 10px;
     margin-left: 5px;
     margin-right: 5px; 
@@ -92,7 +92,7 @@ button.accordion:hover {
 div.panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: #A1A194;
 }
 
 .item-holder{height:130px;
