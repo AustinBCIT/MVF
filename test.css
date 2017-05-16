@@ -15,7 +15,7 @@ body,
 }
 
 .menu {
-  background-color: white;
+  background-color: #EAEFF2;
  /* background-image: linear-gradient(145deg, #1D1F20, #404348); */
 }
 
@@ -25,7 +25,7 @@ a {
 }
 
 .menu a {
-  color: #E85B51;
+  color: #0E735D;
 }
 
 .menu a:hover {

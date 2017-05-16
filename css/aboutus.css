@@ -2,9 +2,11 @@
 /* About us css */
 
 .header-container {
-background-color: #f37a3d;
+background-color: #0E735D;
 margin-top:14px;
 padding-bottom: 0px;
+    color: #EAEFF2;
+    
     
 }
 
@@ -16,16 +18,26 @@ h1 {text-align: center;
 .header1-container {
     height:50px;
     text-align: center;
+    background-color: #A1A194;
     
 }
 .aboutus-para {
     padding-top:10px;
     text-align: center;
+    color: #A1A194;
+    
 }
 
 .header11-container {
     height:50px;
     text-align: center;
     font-size: 28px;
+    background-color: #A1A194;
+    
+}
+
+hr {
+    
+    background-color: #EAEFF2
     
 }
