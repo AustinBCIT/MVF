@@ -24,7 +24,7 @@
     text-align: center;
     font-weight: bold;
     margin-top: 30px;
-    background-color: #0E735D;
+    background-color: #434247;
     padding-top:10px;
     padding-bottom:10px;
     width: 100%;
@@ -42,4 +42,23 @@
     height:150px;
     margin-bottom: 25px; !important;
     padding-top:40px;
+    background-color: #A1A194;
+    /* border: 2px solid #0E735D; */
+}
+
+
+.affiliates1 {
+    height:150px;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+   
+}
+
+.affiliates1 {
+    height:150px;
+    margin-bottom: 25px; !important;
+    padding-top:40px;
+    background-color: #0E735D;
+    color: #eaeff2;
+    /* border: 2px solid #0E735D; */
 }

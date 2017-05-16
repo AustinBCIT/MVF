@@ -2,7 +2,7 @@
 
 .done {
     
-    background-color:#49b390;
+    background-color:#0E735D;
     color: whitesmoke;
     font-size: 18px;
     border-radius: 12px;
@@ -26,11 +26,6 @@
     
 }
 
-hr {
-    
-    background-color: #f37a3d;
-    
-}
 
 .recipe {
     
@@ -56,10 +51,7 @@ hr {
 
  .ingredients {
     
-    border-style: solid;
-    border-width: 2px;
-    border-color: #49b390;
-    border-radius: 15px;
+
 }
 
 /* Tips and trick CSS */
@@ -67,6 +59,7 @@ hr {
 .title-container {
     text-align: center;
     font-size:30px;
+    
 }
 
 .article-bg {
@@ -80,10 +73,54 @@ hr {
     padding-top:5px;
 }
 
-#demo {height:auto;}
+#demo {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo1 {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo2 {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo3 {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo4 {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo5 {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo6 {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo7 {height:auto;
+
+    background-color: #A1A194;
+}
+
+#demo8 {height:auto;
+
+    background-color: #A1A194;
+}
 
 .collapse.in {
   display: block!important;
+    
 }
 
 /* Recipes CSS */
@@ -96,3 +133,11 @@ hr {
     background-color:#8CC63F;
     color: white;
 }
+
+/* .container {
+    
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+} */
