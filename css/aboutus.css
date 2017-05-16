@@ -2,7 +2,7 @@
 /* About us css */
 
 .header-container {
-background-color: #0E735D;
+background-color: #434247;
 margin-top:14px;
 padding-bottom: 0px;
     color: #EAEFF2;
@@ -18,13 +18,16 @@ h1 {text-align: center;
 .header1-container {
     height:50px;
     text-align: center;
-    background-color: #A1A194;
+    background-color: #0E735D;
+    color: #eaeff2;
     
 }
 .aboutus-para {
     padding-top:10px;
     text-align: center;
-    color: #A1A194;
+    background-color: #A1A194;
+    color: black;
+    font-size: 18px;
     
 }
 
@@ -32,7 +35,8 @@ h1 {text-align: center;
     height:50px;
     text-align: center;
     font-size: 28px;
-    background-color: #A1A194;
+    background-color: #0E735D;
+    color: #eaeff2;
     
 }
 
