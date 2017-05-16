@@ -118,12 +118,12 @@
 
 
     .virtual-char{font-size: 40px;
-    color: white;
-        background-color: #0E735D;
+    color: #eaeff2;
+        background-color: #434247;
         font-weight: bold;
         height: 90px !important;
         padding-top:30px;
-        font-family: 'Muli';
+        font-family: 'Muli', sans-serif;
 }
 
 
