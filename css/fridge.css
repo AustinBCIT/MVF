@@ -61,8 +61,8 @@ button.input.accordion.active, button.input.accordion:hover {
 }        
         
 button.accordion {
-    background-color: #434247;
-    color: #34d387;
+    background-color: #eaeff2;
+    color: #0E735D;
     cursor: pointer;
     padding: 23px;
     width: 100%;
@@ -71,9 +71,10 @@ button.accordion {
     transition: 0.4s;
     font-weight: bold;
     font-size: 22px;
-    border: 1px solid #34d387;
+    border: 1px solid #0E735D;
     
 }
+
 
 .something{
     display: inline-block;
@@ -84,7 +85,8 @@ button.accordion:active {
 }
         
 button.accordion:hover {
-    background-color: #EAEFF2;
+    background-color: #0e735d;
+    color: #eaeff2;
 }
 
 div.panel {
