@@ -167,6 +167,7 @@ a {
     top: 0px;
     left: 30px;
     width: 50px;
+      border-radius:10px;
   }
 
   .panel-header {
