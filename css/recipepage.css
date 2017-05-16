@@ -29,11 +29,11 @@
 
 .recipe {
     
-    background-color: white;
-    opacity: 0.7;
-    font-size: 26px;
+    background-color: #0e735d;
+    opacity: 0.9;
+    font-size: 23px;
     font-weight: bold;
-    color: black;
+    color: #eaeff2;
     height: 50px;
     text-align: left;
     
@@ -45,7 +45,30 @@
     height: 100px;
 
 }
+.recipe-bg1 {
+    
+    background-image: url(../images/grilledcheeseG.jpg);
+    height: 100px;
 
+}
+.recipe-bg2 {
+    
+    background-image: url(../images/chickenpastaG.JPG);
+    height: 100px;
+
+}
+.recipe-bg3 {
+    
+    background-image: url(../images/hamcheeseG.jpg);
+    height: 100px;
+
+}
+.recipe-bg4 {
+    
+    background-image: url(../images/eggsaladG.png.jpg);
+    height: 100px;
+
+}
 
 
 
