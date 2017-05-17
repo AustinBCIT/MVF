@@ -1,3 +1,7 @@
+<!--<?php
+	session_start();
+?>-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,25 +11,27 @@
     
     <script src="https://use.fontawesome.com/6c5f8d3c8b.js"></script>
     <script src="jquery-3.2.1.min.js"></script>
+    
     <!--- Style Sheet --->
     <link rel="stylesheet" href="css/login.css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
+    
 	<!-- Custom Fonts -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
      <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
    
     
     <!-- jQuery slider -->
-        <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="cleartype" content="on">
     <meta name="MobileOptimized" content="320">
@@ -36,19 +42,17 @@
     <link rel="stylesheet" href="index.css">
     <style>
       .slideout-menu { left: auto; }
-      .btn-hamburger { left: auto; right: 12px;}
-      .box { height: 1500px; }
-        
-        .logIn {
-            
-            font-weight: bold;
-            font-size: 24px;
-            
-            
+      .btn-hamburger { 
+          left: auto; 
+          right: 12px;
         }
-        
+      .box { height: 1500px; }
+      .logIn {
+            font-weight: bold;
+            font-size: 24px; 
+        }
     </style>
-      <script>
+    <script>
         
         var succ = 1;
         
@@ -74,26 +78,35 @@
     </script>
     </head>
 <body style="background-color:##72bcd4">
-<nav id="menu" class="menu">
-      <a>
-          <!-- User info goes here -->
-      </a>
-     <section class="menu-section">
-        <h3 class="menu-section-title">Navigation</h3>
-        <ul class="menu-section-list">
-          <li><a href="mobileindex.html">Home</a></li>
-          <li><a href="logIn.html">Sign in</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="fridgeMain.html">Fridge Contents</a></li>
-          <li><a href="fridge.html">Add Ingredients</a></li>
-          <li><a href="realRecipes.html">Recipes</a></li>
-          <li><a href="tips&tricks.html">Tips &amp; Tricks</a></li>
-          <li><a href="aboutus.html">About us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="affiliated.html">Affiliated Apps</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-      </section>
+    
+    <nav id="menu" class="menu">
+          <a>
+              <!--              <?php
+                if (isset($_SEESION['username'])){
+                echo $_SESSION['username']</li>
+                }
+              ?>-->
+          </a>
+         <section class="menu-section">
+            <h3 class="menu-section-title">Navigation</h3>
+            <ul class="menu-section-list">
+              <li><a href="mobileindex.html">Home</a></li>
+              <li><a href="logIn.html">Sign in</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li><a href="fridgeMain.html">Fridge Contents</a></li>
+              <li><a href="fridge.html">Add Ingredients</a></li>
+              <li><a href="realRecipes.html">Recipes</a></li>
+              <li><a href="tips&tricks.html">Tips &amp; Tricks</a></li>
+              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="affiliated.html">Affiliated Apps</a></li>
+<!--              <?php
+                if (isset($_SEESION['username'])){
+                echo "<li><a href='logout.php'>Logout</a></li>";
+                }
+              ?>-->
+            </ul>
+          </section>
     </nav> 
     
     <main id="panel" class="panel">
