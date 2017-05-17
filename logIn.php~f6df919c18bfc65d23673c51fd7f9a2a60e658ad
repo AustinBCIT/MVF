@@ -101,12 +101,11 @@
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="affiliated.html">Affiliated Apps</a></li>
     <?php
-
                 if (isset($_SEESION['username'])){
                 echo "<li><a href='logout.php'>Logout</a></li>";
                 }
               ?>
-            </ul>
+            </ulss>
           </section>
     </nav> 
     

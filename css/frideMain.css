@@ -36,7 +36,7 @@ html, body {
         
         #removeButton { 
             
-            width: 100%;
+            width: 50%;
             height: 50px;
             position: fixed;
             bottom: 0; 
@@ -44,10 +44,38 @@ html, body {
         background-color: #0E735D;
         font-weight: bold;
         font-size: 20px;
-            border: 0;
+            border-right-color: #eaeff2;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
     -webkit-appearance: none;
             
         }
+
+
+    #recipeButton { 
+            
+            width: 50%;
+            height: 50px;
+            position: fixed;
+            bottom: 0; 
+        right: 0px;
+            color: #EAEFF2;
+        background-color: #0E735D;
+        font-weight: bold;
+        font-size: 20px;
+             border-left-color: #eaeff2;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-right: none;
+            border-top: none;
+            border-bottom: none;
+    -webkit-appearance: none;
+            
+        }
+
         
         .food {
     padding: 15px 0 0 0;
