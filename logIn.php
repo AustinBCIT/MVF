@@ -1,6 +1,6 @@
-<!--<?php
+<?php
 	session_start();
-?>-->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -81,11 +81,11 @@
     
     <nav id="menu" class="menu">
           <a>
-              <!--              <?php
+                            <?php
                 if (isset($_SEESION['username'])){
                 echo $_SESSION['username']</li>
                 }
-              ?>-->
+              ?>
           </a>
          <section class="menu-section">
             <h3 class="menu-section-title">Navigation</h3>
@@ -100,11 +100,11 @@
               <li><a href="aboutus.html">About us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="affiliated.html">Affiliated Apps</a></li>
-<!--              <?php
+              <?php
                 if (isset($_SEESION['username'])){
                 echo "<li><a href='logout.php'>Logout</a></li>";
                 }
-              ?>-->
+              ?>
             </ul>
           </section>
     </nav> 
