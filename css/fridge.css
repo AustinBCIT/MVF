@@ -55,14 +55,15 @@ button.input.accordion {
     font-size: 15px;
     transition: 0.4s;
 }
+
         
 button.input.accordion.active, button.input.accordion:hover {
     background-color: #ddd; 
 }        
         
 button.accordion {
-    background-color: #eaeff2;
-    color: #0E735D;
+    background-color: #0e735d;
+    color: #eaeff2;
     cursor: pointer;
     padding: 23px;
     width: 100%;
@@ -71,7 +72,7 @@ button.accordion {
     transition: 0.4s;
     font-weight: bold;
     font-size: 22px;
-    border: 1px solid #0E735D;
+    border: 1px solid #eaeff2;
     
 }
 
@@ -85,8 +86,8 @@ button.accordion:active {
 }
         
 button.accordion:hover {
-    background-color: #0e735d;
-    color: #eaeff2;
+    background-color: #eaeff2;
+    color: #0e735d;
 }
 
 div.panel {

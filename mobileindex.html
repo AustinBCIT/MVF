@@ -6,22 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <script src="https://use.fontawesome.com/6c5f8d3c8b.js"></script>
+    
+    <!-- Easter egg for desktop -->
+    <script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+    
     <script src="jquery-3.2.1.min.js"></script>
-    <!--- Style Sheet --->
+    
+    <!-- Style Sheet --> 
     <link rel="stylesheet" href="css/index.css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
+    
 	<!-- Custom Fonts -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   
     
      <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
    
     <!-- JQuery Slider -->
@@ -39,7 +46,15 @@
       .btn-hamburger { left: auto; right: 12px; top: 0;}
       .box { height: 1500px; }
     </style>
-      <script>
+    <script>
+var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
+  jQuery('#egggif').fadeIn(500, function() {
+    window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
+  });
+}).listen();
+    </script>
+    
+    <script>
         var succ = 1;
         function blurr() {    
            var x = document.getElementById('weo');
@@ -58,13 +73,13 @@
         
         
     </script>
+
     </head>
 <body>
      <nav id="menu" class="menu">
       <a>
           <!-- User info goes here -->
       </a>
-
      <section class="menu-section">
         <h3 class="menu-section-title">Navigation</h3>
         <ul class="menu-section-list">
@@ -81,10 +96,7 @@
           <li><a href="#">Log Out</a></li>
         </ul>
       </section>
-    </nav>
-
-    
-    
+    </nav>   
     <main id="panel" class="panel">
       <header class="panel-header">
           <div class="wedaBest col-md-12">
@@ -120,13 +132,10 @@
       };
     </script>
     <!--- End of Slider -->    
-    <body>            
+    <body> 
             <div class="title-container col-xs-12 col-md-12 ">
                 <p class=" virtual-char">My Virtual Fridge</p>
             </div>
-      
-
-
         <a href="#">
             <div class="pic-container col-xs-12">
                 <a href="aboutus.html">
@@ -170,9 +179,8 @@
                 </a>
             </div>
         </a>
-    </body>
-    
-    
-
-
-    
+</body>
+        
+    </main>
+    <img id="egggif" src="../MVF/images/cst_meme.jpg" alt="meme">
+    </html>    
