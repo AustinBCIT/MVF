@@ -51,6 +51,12 @@
     height: 100px;
 
 }
+/* .recipe-bg1:hover {
+    
+    background-image: url(../images/grilledcheese.jpg);
+    height: 100px;
+
+} do we want this highlight function?*/
 .recipe-bg2 {
     
     background-image: url(../images/chickenpastaG.JPG);
