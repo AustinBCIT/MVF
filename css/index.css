@@ -76,7 +76,7 @@ font-family: 'Muli', sans-serif;
 .about {  
     background-color: #0E735D;
     opacity: 0.9;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', 'sans-serif';
     font-size: 26px;
     font-weight: bold;
     color: white;
@@ -85,7 +85,7 @@ font-family: 'Muli', sans-serif;
 }
 
 .contact {    
-    font-family: 'Muli';
+    font-family: 'Muli',  'sans-serif';
     background-color: #0E735D;
     opacity: 0.9;
     font-size: 26px;
@@ -96,7 +96,7 @@ font-family: 'Muli', sans-serif;
 }
 
 .tips {
-    font-family: 'Muli';
+    font-family: 'Muli',  'sans-serif';
     background-color: #0E735D;
     opacity: 0.9;
     font-size: 26px;

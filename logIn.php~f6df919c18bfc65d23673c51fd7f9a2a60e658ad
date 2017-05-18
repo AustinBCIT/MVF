@@ -105,7 +105,7 @@
                 echo "<li><a href='logout.php'>Logout</a></li>";
                 }
               ?>
-            </ul>
+            </ulss>
           </section>
     </nav> 
     
