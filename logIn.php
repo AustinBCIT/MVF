@@ -81,9 +81,9 @@
     
     <nav id="menu" class="menu">
           <a>
-                            <?php
+              <?php
                 if (isset($_SEESION['username'])){
-                echo $_SESSION['username']</li>
+                echo $_SESSION['username'];
                 }
               ?>
           </a>
@@ -100,7 +100,7 @@
               <li><a href="aboutus.html">About us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="affiliated.html">Affiliated Apps</a></li>
-    <?php
+             <?php
 
                 if (isset($_SEESION['username'])){
                 echo "<li><a href='logout.php'>Logout</a></li>";
@@ -153,8 +153,8 @@
         <form class="f-border col-xs-12 pull-xs-12 col-md-6 pull-md-12 mx-auto" action="loginmvf.php" method="post">
             <fieldset class="f-border center-block">
                 <legend><h2></h2></legend><i class="glyphicon glyphicon-user"></i>
-                <div class="username">Username</div><input type="text" required="required"><br><br><i class="glyphicon glyphicon-lock"></i>
-                <div class="password">Password</div> <input type="password" required="required" id="checkPass"><br><br>
+                <div class="username">Username</div><input name="user" type="text" required="required"><br><br><i class="glyphicon glyphicon-lock"></i>
+                <div class="password">Password</div> <input name="pass" type="password" required="required" id="checkPass"><br><br>
                 <input type="submit">
             </fieldset>
         </form>

@@ -11,20 +11,22 @@
     
     <script src="https://use.fontawesome.com/6c5f8d3c8b.js"></script>
     <script src="jquery-3.2.1.min.js"></script>
+    
     <!--- Style Sheet --->
     <link rel="stylesheet" href="css/register.css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
+    
 	<!-- Custom Fonts -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
      <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!-- checks to see if passwords are matching and lets user know -->
@@ -43,13 +45,11 @@
             document.getElementById('alert').style.backgroundColor = 'green';
             
         }
-    }
-    
-        
+    }      
     </script>
     
     <!-- jQuery slider -->
-        <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="cleartype" content="on">
     <meta name="MobileOptimized" content="320">
@@ -73,21 +73,25 @@
       </a>
 
      <section class="menu-section">
-        <h3 class="menu-section-title">Navigation</h3>
-        <ul class="menu-section-list">
-          <li><a href="mobileindex.html">Home</a></li>
-          <li><a href="logIn.html">Sign in</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="fridgeMain.html">Fridge Contents</a></li>
-          <li><a href="fridge.html">Add Ingredients</a></li>
-          <li><a href="realRecipes.html">Recipes</a></li>
-          <li><a href="tips&tricks.html">Tips &amp; Tricks</a></li>
-          <li><a href="aboutus.html">About us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="affiliated.html">Affiliated Apps</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-      </section>
+            <h3 class="menu-section-title">Navigation</h3>
+            <ul class="menu-section-list">
+              <li><a href="mobileindex.html">Home</a></li>
+              <li><a href="logIn.html">Sign in</a></li>
+              <li><a href="fridgeMain.html">Fridge Contents</a></li>
+              <li><a href="fridge.html">Add Ingredients</a></li>
+              <li><a href="realRecipes.html">Recipes</a></li>
+              <li><a href="tips&tricks.html">Tips &amp; Tricks</a></li>
+              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="affiliated.html">Affiliated Apps</a></li>
+             <?php
+
+                if (isset($_SEESION['username'])){
+                echo "<li><a href='logout.php'>Logout</a></li>";
+                }
+              ?>
+         </ul>
+     </section>
     </nav>
 
     
@@ -132,14 +136,14 @@
         </div>
     
     <div class="col-md-3"></div>
-        <form class="f-border col-xs-12 pull-xs-12 col-md-6 pull-md-12 mx-auto">
+        <form class="f-border col-xs-12 pull-xs-12 col-md-6 pull-md-12 mx-auto" method="post" action="register.php">
             <fieldset class="f-border center-block">
                 <legend>Register a new Account</legend><i class="glyphicon glyphicon-user"></i>
-                <div class="username">Username</div><input type="text" required="required" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
-                <div class="password">Password</div><input type="password" required="required" id="checkPass" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
+                <div class="username">Username</div><input name="username" type="text" required="required" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
+                <div class="password">Password</div><input name="password" type="password" required="required" id="checkPass" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
                 <div class="password1">Re-enter Password</div> <input type="password" required="required" id="checkPass1" onChange="checkPassword()" class="glowing-border"><br><br>
                 <div class="alert"><p id="alert"></p></div>
-                <i class="glyphicon glyphicon-envelope"></i>&nbsp;<div class="email">Email</div><input type="email" required="required" class="glowing-border"><br><br>
+                <i class="glyphicon glyphicon-envelope"></i>&nbsp;<div class="email">Email</div><input name="email" type="email" required="required" class="glowing-border"><br><br>
                 <input type="submit">
             </fieldset>
         </form>
