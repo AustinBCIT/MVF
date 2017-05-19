@@ -1,7 +1,13 @@
+<?php
+	session_start(); 
+    require_once('mysqli_connect.php');
+    include 'functions.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Waffles</title>
+    <title>French Toast</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -43,26 +49,35 @@
     
     <!-- The nav bar that interacts with the jquery slider -->
      <nav id="menu" class="menu">
-      <a href="mobileindex.html">
         <header class="menu-header">
-          <span class="menu-header-title">'Username'</span>
+          <?php
+            if (isLoggedin()) {
+            echo $_SESSION["user"];
+            }
+          ?>
         </header>
-      </a>
-      
-
      <section class="menu-section">
         <h3 class="menu-section-title">Navigation</h3>
         <ul class="menu-section-list">
-          <li><a href="logIn.html">Sign in</a></li>
-            <li><a href="register.html">Register</a></li>
-          <li><a href="fridgeMain.html">Fridge Contents</a></li>
-          <li><a href="fridge.html">Add Ingredients</a></li>
-          <li><a href="realRecipes.html">Recipes</a></li>
-          <li><a href="tips&tricks.html">Tips &amp; Tricks</a></li>
-          <li><a href="aboutus.html">About us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="affiliated.html">Affiliated Apps</a></li>
-            <li><a href="#">Log Out</a></li>
+          <li><a href="mobileindex.php">Home</a></li>
+          <li><a href="logIn.php">Sign in</a></li>
+          <li><a href="registermvp.php">Register</a></li>
+          <?php
+            if (isLoggedin()) {
+            echo '<li><a href="fridgeMain.php">Fridge Contents</a></li>';
+            echo '<li><a href="fridge.php">Add Ingredients</a></li>';
+            }
+          ?>
+          <li><a href="realRecipes.php">Recipes</a></li>
+          <li><a href="tips&tricks.php">Tips &amp; Tricks</a></li>
+          <li><a href="aboutus.php">About us</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="affiliated.php">Affiliated Apps</a></li>
+              <?php
+                if (isLoggedin()){
+                echo '<li><a href="logout.php">Logout</a></li>';
+                }
+              ?>
         </ul>
       </section>
     </nav>
@@ -112,12 +127,12 @@
     <div class="row">
      
         <div class="image-header img-fluid">
-            <img src="images/waffles.jpg" style="border-radius:10px;">
+            <img src="images/frenchtoast.jpg" style="border-radius:10px;">
            
         </div>
     </div>
     
-    <div class="col-md-12 recipe-header">Waffles</div>
+    <div class="col-md-12 recipe-header">French Toast</div>
     
     
     
@@ -132,14 +147,13 @@
     
                 <div class="col-md-12  ingredients-container">
                     <ul>
-                        <li class="list-item">2 cups flour</li>
-                        <li class="list-item">1 Tsp salt</li>
-                        <li class="list-item">4 Tsp baking powder</li>
-                        <li class="list-item">2 Tbsp sugar</li>
-                        <li class="list-item">2 eggs</li>
-                        <li class="list-item">1 1/2 cups milk</li>
-                        <li class="list-item">1/3 cup butter</li>
-                        <li class="list-item">1 Tsp vanilla extract</li>
+                        <li class="list-item">1 Tsp ground cinnamon</li>
+                        <li class="list-item">1/4 Tsp ground nutmeg</li>
+                        <li class="list-item">2 Tbsp butter</li>
+                        <li class="list-item">4 eggs</li>
+                        <li class="list-item">1/4 cup milk</li>
+                        <li class="list-item">1/2 Tsp vanilla extract</li>
+                        <li class="list-item">8 slices of bread</li>
                     </ul>
                 </div>
             
@@ -153,9 +167,12 @@
           
             <div class="col-md-12 direction-container">
             <ol>
-                <li class="list-item">In a large bowl, mix together flour, salt, baking powder and sugar; set aside. Preheat waffle iron to desired temperature.</li>
-                <li class="list-item">In a separate bowl, beat the eggs. Stir in the milk, butter and vanilla. Pour the milk mixture into the flour mixture; beat until blended.</li>
-                <li class="list-item">Ladle the batter into a preheated waffle iron. Cook the waffles until golden and crisp. Serve immediately.</li>
+                <li class="list-item">In a small bowl, combine, cinnamon, nutmeg, and sugar and set aside briefly.</li>
+                <li class="list-item">In a pan melt butter over medium heat.</li>
+                <li class="list-item">Whisk together cinnamon mixture, eggs, milk, and vanilla and pour into a shallow container.</li>
+                <li class="list-item">Dip bread in egg mixture.</li>
+                <li class="list-item">Fry slices until golden brown on both sides. Serve with syrup or choice of topping.</li>
+                
               
             </ol>
             </div>
