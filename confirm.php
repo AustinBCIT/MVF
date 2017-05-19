@@ -24,15 +24,7 @@
 
 
             // user_id, first_name, last_name, username, email, password, gender
-            $sql = "INSERT INTO users VALUE(
-                    '',
-                    ' ',
-                    ' ',
-                    ' ',
-                    ' ',
-                    ' ',
-                    ' '
-                    )";
+            $sql = "INSERT INTO users VALUE('', 'first_name', 'last_name', 'username', 'email', 'password', 'gender')";
 
             if ($mysqli->query($sql) === true) {
                 $_SESSION['message'] = 'Registration successful!  Added $username to the database!';
