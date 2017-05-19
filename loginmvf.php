@@ -3,11 +3,7 @@
     session_start();
 
     //Include database connection details
-<<<<<<< HEAD
-	require '/home1/mconnection/.htpasswds/connect.php';
-=======
 	require_once('mysqli_connect.php');
->>>>>>> ryanbranch
 
     $_SESSION['username'] = '';  
 
@@ -18,11 +14,7 @@
     $password = stripcslashes($password);
 
     //Connecting to da database, babeh!
-<<<<<<< HEAD
-    $list = mysqli_connect("$host", "$user", "$password", "$db");
-=======
     $list = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
->>>>>>> ryanbranch
 
     //If we don't connect to the database it will spit out an error for us to fix
     if(!$list){
