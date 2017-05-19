@@ -3,11 +3,11 @@
 	session_start();
 	
 	//Unset the variables stored in session
-    //unset($_SESSION['id']);
-    //^^Get the id from the database^^
-	unset($_SESSION['username']);
-	unset($_SESSION['password']);
+    unset($_SESSION['user']);
+
 	session_write_close();
-	header("location: mobileindex.html"); // Change this to php when ready
+
+	header("location: mobileindex.php");
+
 	exit();
 ?>

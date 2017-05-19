@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	session_start(); 
     require_once('mysqli_connect.php');
     include 'functions.php';
 ?>
@@ -7,19 +7,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login</title>
+    <title>MVF</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <script src="https://use.fontawesome.com/6c5f8d3c8b.js"></script>
+    
+    <!-- Easter egg for desktop -->
+    <script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+    
     <script src="jquery-3.2.1.min.js"></script>
     
-    <!--- Style Sheet --->
-    <link rel="stylesheet" href="css/login.css">
+    <!-- Style Sheet --> 
+    <link rel="stylesheet" href="css/index.css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
     
 	<!-- Custom Fonts -->
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
     
      <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -29,10 +34,10 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-   
     
-    <!-- jQuery slider -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    <!-- JQuery Slider -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="cleartype" content="on">
@@ -44,24 +49,20 @@
     <link rel="stylesheet" href="index.css">
     <style>
       .slideout-menu { left: auto; }
-      .btn-hamburger { 
-          left: auto; 
-          right: 12px;
-        }
+      .btn-hamburger { left: auto; right: 12px; top: 0;}
       .box { height: 1500px; }
-      .logIn {
-            font-weight: bold;
-            font-size: 24px; 
-        }
     </style>
     <script>
-        
+var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
+  jQuery('#egggif').fadeIn(500, function() {
+    window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
+  });
+}).listen();
+    </script>
+    
+    <script>
         var succ = 1;
-        
-        function blurr() {
-            
-            
-            
+        function blurr() {    
            var x = document.getElementById('weo');
             
             if (succ == 1) {
@@ -78,9 +79,9 @@
         
         
     </script>
+
     </head>
-<body style="background-color:##72bcd4">
-    
+<body>
      <nav id="menu" class="menu">
         <header class="menu-header">
           <?php
@@ -113,13 +114,15 @@
               ?>
         </ul>
       </section>
-    </nav> 
-    
+    </nav>   
     <main id="panel" class="panel">
       <header class="panel-header">
           <div class="wedaBest col-md-12">
               <div class="img-container col-xs-1 col-md-1">
+
                   <a href="mobileindex.html"><div class="mvf">MV<div class="mvf1">F</div></div></a>
+
+
               </div>
           </div>
           <button class="btn-hamburger js-slideout-toggle">
@@ -127,7 +130,7 @@
           </button>
       </header>
 
-<!-- jQuery slider -->      
+      
     <script src="dist/slideout.js"></script>
     <script>
       window.onload = function() {
@@ -146,23 +149,56 @@
         });
       };
     </script>
-    <div class="core-container">
-            
-            <div class="col-xs-12 col-md-12 title-container">
-                <p class="virtual-char">Welcome back.
-               
+    <!--- End of Slider -->    
+    <body> 
+            <div class="title-container col-xs-12 col-md-12 ">
+                <p class=" virtual-char">My Virtual Fridge</p>
             </div>
-        </div>
-    
-    <div class="col-md-3"></div>
-        <form class="f-border col-xs-12 pull-xs-12 col-md-6 pull-md-12 mx-auto" action="loginmvf.php" method="post">
-            <fieldset class="f-border center-block">
-                <legend><h2></h2></legend><i class="glyphicon glyphicon-user"></i>
-                <div class="username">Username</div><input name="user" type="text" required="required"><br><br><i class="glyphicon glyphicon-lock"></i>
-                <div class="password">Password</div> <input name="pass" type="password" required="required" id="checkPass"><br><br>
-                <input type="submit">
-            </fieldset>
-        </form>
+        <a href="#">
+            <div class="pic-container col-xs-12">
+                <a href="aboutus.html">
+                
+                    <div class="para-container col-xs-12 col-md-12">
+                        <div class="about col-xs-12"><p>About Us<i class="glyphicon glyphicon-chevron-right"></i></p></div>
+                    </div>
+                    </a>
+            </div>
+        </a>
+        <a href="#">
+            <div class="pic-container1 col-xs-12">
+                <a href="tips&tricks.html">
+                    
+                        <div class="para-container col-xs-12 col-md-12">
+                            
+                            <div class="tips col-xs-12"><p>Tips and Tricks<i class="glyphicon glyphicon-chevron-right"></i></p></div>
+                        </div>
+                    </a>
+            </div>
+        </a>
+        <a href="#">
+            <div class="pic-container2 col-xs-12 col-md-12">
+                <a href="contact.html">
+                
+                    <div class="para-container col-xs-12 col-md-12">
+                        
+                        <div class="contact col-xs-12"><p>Contact Us<i class="glyphicon glyphicon-chevron-right"></i></p></div>
+                    </div>
+                </a>
+            </div>
+        </a>
+         <a href="#">
+            <div class="pic-container3 col-xs-12 col-md-12">
+                <a href="realRecipes.html">
+                
+                    <div class="para-container col-xs-12 col-md-12">
+                        
+                        <div class="contact col-xs-12"><p>Recipes<i class="glyphicon glyphicon-chevron-right"></i></p></div>
+                    </div>
+                </a>
+            </div>
+        </a>
+</body>
+        
     </main>
-    </body>
-</html>
+    <img id="egggif" src="../MVF/images/cst_meme.jpg" alt="meme">
+    </html>    
