@@ -64,36 +64,14 @@ function selected(){
 
 onload=selected
 
-</script>
-<script>
-    
-    var imgArray = new Array();
-    
-    function addIngredient() {
-        
-        var add = document.getElementsByClassName('click')
-        
-        for(let i = 0; i < food.length; i++) {
-            add[i].onclick=function() {
-                
-                if (food[i].style.backgroundColor == "#b1d0ca")
-                
-                
-            }
-            
-            
-            
-            
-        }
-        
-        
-    }
-    
-    
-    
-    
-    </script>    
-    
+
+
+
+
+
+
+
+    </script>
 </head>
 <body id="length">
      <nav id="menu" class="menu">
@@ -154,7 +132,7 @@ onload=selected
     </script>
         <div class="col-md-5 col-xs-4 search-recipe">
         </div>
-        <button type="button" class="btn btn-success recipe-button col-md-2 col-xs-4"> Find Recipes</button>
+        <button type="button" class="btn btn-success recipe-button col-md-2 col-xs-4" id="buttons">Add to Fridge</button>
         
         <div class="something col-md-12">  
     <button class="accordion">
@@ -165,17 +143,17 @@ onload=selected
         </div>
     </button>
      
-<div class="panel">
-    <input onclick="selected()" class="click" type="image" value="Mushrooms" src="images/veg/001-food-14.png">
-    <input onclick="selected()" class="click" type="image" value="Chili" src="images/veg/002-chili.png">
-    <input onclick="selected()" class="click" type="image" value="Pickle" src="images/veg/006-fruit-5.png">
-    <input onclick="selected()" class="click" type="image" value="Radish" src="images/veg/007-food-9.png">
-    <input onclick="selected()" class="click" type="image" value="Onion" src="images/veg/014-food-5.png">
-    <input onclick="selected()" class="click" type="image" value="Broccoli" src="images/veg/015-broccoli.png">
-    <input onclick="selected()" class="click" type="image" value="Tomato" src="images/veg/016-tomato.png">
-    <input onclick="selected()" class="click" type="image" value="Lettuce" src="images/veg/019-salad.png">
-    <input onclick="selected()" class="click" type="image" value="Carrot" src="images/veg/020-carrot.png">       
-    <input onclick="selected()" class="click" type="image" value="Peas" src="images/veg/020-food-2.png">
+<div class="panel" >
+    <img onclick="selected()" class="click" type="image" value="Mushrooms" src="images/veg/001-food-14.png">
+    <img onclick="selected()" class="click" type="image" value="Chili" src="images/veg/002-chili.png" >
+    <img onclick="selected()" class="click" type="image" value="Pickle" src="images/veg/006-fruit-5.png">
+    <img onclick="selected()" class="click" type="image" value="Radish" src="images/veg/007-food-9.png">
+    <img onclick="selected()" class="click" type="image" value="Onion" src="images/veg/014-food-5.png">
+    <img onclick="selected()" class="click" type="image" value="Broccoli" src="images/veg/015-broccoli.png">
+    <img onclick="selected()" class="click" type="image" value="Tomato" src="images/veg/016-tomato.png">
+    <img onclick="selected()" class="click" type="image" value="Lettuce" src="images/veg/019-salad.png">
+    <img onclick="selected()" class="click" type="image" value="Carrot" src="images/veg/020-carrot.png">       
+    <img onclick="selected()" class="click" type="image" value="Peas" src="images/veg/020-food-2.png">
 </div>
 
     <button class="accordion"><div class="col-md-11 col-xs-10">MEATS</div><div class="col-md-1 col-xs-1 icon-move"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></button>
