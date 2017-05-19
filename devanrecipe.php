@@ -88,7 +88,7 @@
       <header class="panel-header">
           <div class="wedaBest col-md-12">
               <div class="img-container col-xs-1 col-md-1">
-                  <a href="mobileindex.html"><div class="mvf">MV<div class="mvf1">F</div></div></a>
+                  <a href="mobileindex.php"><div class="mvf">MV<div class="mvf1">F</div></div></a>
               </div>
           </div>
           <button class="btn-hamburger js-slideout-toggle" style="border-radius:10px">

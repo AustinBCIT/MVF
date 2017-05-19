@@ -120,7 +120,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
           <div class="wedaBest col-md-12">
               <div class="img-container col-xs-1 col-md-1">
 
-                  <a href="mobileindex.html"><div class="mvf">MV<div class="mvf1">F</div></div></a>
+                  <a href="mobileindex.php"><div class="mvf">MV<div class="mvf1">F</div></div></a>
 
 
               </div>
