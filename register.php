@@ -2,48 +2,32 @@
 
     session_start();
 
-    $_SESSION['username'] = '';
 
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "userdb";
-
-    
-    $mysqli = new mysqli($servername, $username, $password, $database);
-
-    // This is making sure if we connected with the database
-    if ($mysqli->connect_error) {
-        die("Connection failed: " . $mysqli->connect_error);
-    }
-
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
-        if ($_POST['password'] == $_POST['password2']) {
-
-            $usernames = $mysqli->real_escape_string($_POST['username']);
-            $emails = $mysqli->real_escape_string($_POST['email']);
-            $passwords = $mysqli->real_escape_string($_POST['password']);
-
-            $_SESSION['username'] = $usernames;
-            $_SESSION['email'] = $emails;
-
-            $sql = "INSERT INTO users (USERNAME, PASSWORD, EMAIL) "
-                    . "VALUES ('$usernames', '$passwords', '$emails')";
-
-            if ($mysqli->query($sql) === true) {
-                $_SESSION['message'] = 'Registration successful!  Added $username to the database!';
-                header("location: mobileindex.html");
-            }
-            else {
-                $_SESSION['username'] = 'Registration failed.';
-            }
-
-        }
-        else {
-            $_SESSION['username'] = '* Please ensure the passwords match<br>';
-        }
-    }
-
-    exit();
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form method="POST" action="confirm.php" name="submissionfld">
+        <div>
+            Username: <input type="text" name="user" id="user" placeholder="username">
+        </div>
+
+        <div>
+            <input type="radio" name="gender" value="M">Male</br>
+            <input type="radio" name="gender" value="F">Female</br>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Register">
+        </div>
+    </form>
+
+</body>
+</html>
