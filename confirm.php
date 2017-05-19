@@ -26,13 +26,9 @@
         echo '* Please ensure the passwords match<br>';
     }
 
-<<<<<<< HEAD
-            // user_id, first_name, last_name, username, email, password, gender
-            $sql = "INSERT INTO users VALUE('', 'first_name', 'last_name', 'username', 'email', 'password', 'gender')";
-=======
     //Inputting the signin info into the table
     $sql = "INSERT INTO user (first_name, last_name, username, email, password, gender) VALUES('$first', '$last', '$user', '$email', '$passes', '$sex')";
->>>>>>> ryanbranch
+
 
     $data = mysqli_query($list, $sql) or die(mysqli_error($list));
 

@@ -156,7 +156,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
             </div>
         <a href="#">
             <div class="pic-container col-xs-12">
-                <a href="aboutus.html">
+                <a href="aboutus.php">
                 
                     <div class="para-container col-xs-12 col-md-12">
                         <div class="about col-xs-12"><p>About Us<i class="glyphicon glyphicon-chevron-right"></i></p></div>
@@ -166,7 +166,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
         </a>
         <a href="#">
             <div class="pic-container1 col-xs-12">
-                <a href="tips&tricks.html">
+                <a href="tips&tricks.php">
                     
                         <div class="para-container col-xs-12 col-md-12">
                             
@@ -177,7 +177,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
         </a>
         <a href="#">
             <div class="pic-container2 col-xs-12 col-md-12">
-                <a href="contact.html">
+                <a href="contact.php">
                 
                     <div class="para-container col-xs-12 col-md-12">
                         
@@ -188,7 +188,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
         </a>
          <a href="#">
             <div class="pic-container3 col-xs-12 col-md-12">
-                <a href="realRecipes.html">
+                <a href="realRecipes.php">
                 
                     <div class="para-container col-xs-12 col-md-12">
                         
