@@ -68,54 +68,6 @@ onload=selected
 
 
 </script>
-<script>
-    
-    
-    var input = document.getElementsByClassName('click');
-    var buttons = document.getElementById('succ');
-    
-    var createImage = function(src, title) {
-        var img = new Image();
-        img.src = src;
-        img.alt = title;
-        img.title = title;
-        return img;
-    };
-
-    var images = [];
-    
-    images.push(createImage("images/veg/001-food-14.png", "succ"));
-    images.push(createImage("images/veg/002-chili.png", "succ1"));
-    
-    
-    console.log(images);
-    
-function addIng() {
-    var newImages = [];
-    var count = 0;
-var fuck = document.getElementsByClassName('click');
-    for(let i = 0; i < fuck.length; i++){
-		fuck[i].onclick=function(){
-    
-            if (fuck[i].style.backgroundColor == "#b1d0ca") {
-			count++;   
-}
-
-}
-    }
-    console.log(count);
-}
-    </script>    
-    
-
-
-
-
-
-
-
-    
-
 </head>
 <body id="length">
      <nav id="menu" class="menu">
