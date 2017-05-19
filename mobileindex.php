@@ -200,5 +200,5 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
 </body>
         
     </main>
-    <img id="egggif" src="../MVF/images/cst_meme.jpg" alt="meme">
+    <img id="egggif" src="../MVF/images/liam.jpg" alt="meme">
     </html>    
