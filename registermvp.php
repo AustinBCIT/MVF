@@ -84,12 +84,12 @@
               <li><a href="aboutus.html">About us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
               <li><a href="affiliated.html">Affiliated Apps</a></li>
-             <?php
+<!--             <?php
 
                 if (isset($_SEESION['username'])){
                 echo "<li><a href='logout.php'>Logout</a></li>";
                 }
-              ?>
+              ?>-->
          </ul>
      </section>
     </nav>
@@ -136,14 +136,28 @@
         </div>
     
     <div class="col-md-3"></div>
-        <form class="f-border col-xs-12 pull-xs-12 col-md-6 pull-md-12 mx-auto" method="post" action="register.php">
+        <form class="f-border col-xs-12 pull-xs-12 col-md-6 pull-md-12 mx-auto" method="post" action="confirm.php">
             <fieldset class="f-border center-block">
+                
                 <legend>Register a new Account</legend><i class="glyphicon glyphicon-user"></i>
+                
+                <div class="username">First Name</div><input name="firstname" type="text" required="required" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
+                
+                <div class="username">Last Name</div><input name="lastname" type="text" required="required" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
+                
                 <div class="username">Username</div><input name="username" type="text" required="required" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
+                
                 <div class="password">Password</div><input name="password" type="password" required="required" id="checkPass" class="glowing-border"><br><br><i class="glyphicon glyphicon-lock"></i>
-                <div class="password1">Re-enter Password</div> <input type="password" required="required" id="checkPass1" onChange="checkPassword()" class="glowing-border"><br><br>
+                
+                <div class="password1">Re-enter Password</div> <input name="password2" type="password" required="required" id="checkPass1" onChange="checkPassword()" class="glowing-border"><br><br>
+                
                 <div class="alert"><p id="alert"></p></div>
-                <i class="glyphicon glyphicon-envelope"></i>&nbsp;<div class="email">Email</div><input name="email" type="email" required="required" class="glowing-border"><br><br>
+                
+                <div class="glyphicon glyphicon-envelope"></div>&nbsp;<div class="email">Email</div><input name="email" type="email" required="required" class="glowing-border"><br><br>
+                
+                <input type="radio" name="gender" value="0">Male
+                <input type="radio" name="gender" value="1">Female<br><br>
+                
                 <input type="submit">
             </fieldset>
         </form>
