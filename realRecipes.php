@@ -142,7 +142,7 @@
         
        </div>
     </div>
-    
+         </div>
     <div class="container">
        <div class="row">
         <div data-parent="#accordion" data-toggle="collapse" data-target="#demo1" class=" recipe-bg2" ><p class="recipe">Chicken Cordon Pasta<i class="fa fa-chevron-down" aria-hidden="true"></i></p>
