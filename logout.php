@@ -2,11 +2,12 @@
 	//Start session
 	session_start();
 	
-	//Unset the variables stored in session
+	//Unsetting the variables stored in session
     unset($_SESSION['user']);
 
 	session_write_close();
 
+    //Sends the user home after logging out
 	header("location: mobileindex.php");
 
 	exit();

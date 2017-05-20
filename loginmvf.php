@@ -35,9 +35,6 @@
     } else {
         "<span style=color:red>Failed to login.</span>"; 
     }
-    
-    //Sends the user to the home page upon successful login
-//    header("Location: mobileindex.php");
 
     exit();
 ?>

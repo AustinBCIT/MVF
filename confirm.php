@@ -7,9 +7,9 @@
     
     $list = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-    // This is making sure if we connected with the database
+    // This is making sure if we connected with the database or not
     if (!$list) {
-        die("Connection failed: ".mysqli_connect_error());
+        die("Connection failed: ".mysqli_connect_error($list));
     }
 
     //Making sure password and re-enter password match
@@ -29,15 +29,13 @@
     //Inputting the signin info into the table
     $sql = "INSERT INTO user (first_name, last_name, username, email, password, gender) VALUES('$first', '$last', '$user', '$email', '$passes', '$sex')";
 
-
+    //Check whether the query was successful or not
     $data = mysqli_query($list, $sql) or die(mysqli_error($list));
 
     //Checking to make sure it's true
     if ($data) {
-        echo 'Registration successful!';
         header("location: mobileindex.php");
-    }
-        else {
+    } else {
             echo "Registration failed.";
         }
 

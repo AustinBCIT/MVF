@@ -87,15 +87,11 @@ input[type=email] {
 }
 
 fieldset {
-    margin-top: 50px !important;  
-    
-    
+    margin-top: 50px !important;   
 }
 
-form {
-    
-    background-color: #EAEFF2;
-    
+form {   
+    background-color: #EAEFF2;   
 }
 
 #alert { 

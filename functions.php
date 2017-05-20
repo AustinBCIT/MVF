@@ -1,10 +1,10 @@
 <?php
-function isLoggedin(){
+    function isLoggedin(){
 
-    if(isset($_SESSION['user'])&&!empty($_SESSION['user'])){
-        return true;
-    } else {
-        return false;
+        if(isset($_SESSION['user'])&&!empty($_SESSION['user'])){
+            return true;
+        } else {
+            return false;
+        }
     }
-}
 ?>
