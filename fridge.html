@@ -66,56 +66,15 @@ onload=selected
 
 
 </script>
-<script>
-    
-    
-    var input = document.getElementsByClassName('click');
-    var buttons = document.getElementById('succ');
-    
-    var createImage = function(src, title) {
-        var img = new Image();
-        img.src = src;
-        img.alt = title;
-        img.title = title;
-        return img;
-    };
-
-    var images = [];
-    
-    images.push(createImage("images/veg/001-food-14.png", "succ"));
-    images.push(createImage("images/veg/002-chili.png", "succ1"));
-    
-    
-    console.log(images);
-    
-function addIng() {
-    var newImages = [];
-    var count = 0;
-var fuck = document.getElementsByClassName('click');
-    for(let i = 0; i < fuck.length; i++){
-		fuck[i].onclick=function(){
-    
-            if (fuck[i].style.backgroundColor == "#b1d0ca") {
-			count++;   
-}
-
-}
-    }
-    console.log(count);
-}
-    </script>    
-    
-
-
-
-
-
-
-
-    
 
 </head>
+    
 <body id="length">
+     
+     <div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+    
      <nav id="menu" class="menu">
        <a href="mobileindex.html">
         <header class="menu-header">
@@ -172,6 +131,11 @@ var fuck = document.getElementsByClassName('click');
         });
       };
     </script>
+        
+               
+        
+        
+        
         <div class="col-md-5 col-xs-4 search-recipe">
         </div>
 
@@ -273,8 +237,8 @@ var fuck = document.getElementsByClassName('click');
 </div>        
 </div>
         
- 
-    
+        
+        
 <!-- accordion function -->  
         
 <script>
@@ -294,7 +258,20 @@ for (i = 0; i < acc.length; i++) {
     }
 }
 </script>
+        
     </main>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!-- Preloader -->
+<script type="text/javascript">
+	//<![CDATA[
+		$(window).on('load', function() { // makes sure the whole site is loaded 
+			$('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({'overflow':'visible'});
+		})
+	//]]>
+</script> 
     </body>
 </html>
     
