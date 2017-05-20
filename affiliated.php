@@ -1,8 +1,8 @@
-<!--<?php
+<?php
 	session_start(); 
     require_once('mysqli_connect.php');
     include 'functions.php';
-?>-->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,34 +49,35 @@
     
      <nav id="menu" class="menu">
         <header class="menu-header">
-<!--          <?php
+          <?php
             if (isLoggedin()) {
             echo $_SESSION["user"];
             }
-          ?>-->
+          ?>
         </header>
      <section class="menu-section">
         <h3 class="menu-section-title">Navigation</h3>
         <ul class="menu-section-list">
           <li><a href="mobileindex.php">Home</a></li>
-          <li><a href="logIn.php">Sign in</a></li>
-          <li><a href="registermvp.php">Register</a></li>
-<!--          <?php
+          <?php
             if (isLoggedin()) {
             echo '<li><a href="fridgeMain.php">Fridge Contents</a></li>';
             echo '<li><a href="fridge.php">Add Ingredients</a></li>';
+            } else {
+                echo '<li><a href="logIn.php">Sign In</a></li>'; 
+                echo '<li><a href="registermvp.php">Register</a></li>';   
             }
-          ?>-->
+          ?>
           <li><a href="realRecipes.php">Recipes</a></li>
           <li><a href="tips&tricks.php">Tips &amp; Tricks</a></li>
           <li><a href="aboutus.php">About us</a></li>
           <li><a href="contact.php">Contact Us</a></li>
           <li><a href="affiliated.php">Affiliated Apps</a></li>
-<!--              <?php
+              <?php
                 if (isLoggedin()){
                 echo '<li><a href="logout.php">Logout</a></li>';
                 }
-              ?>-->
+              ?>
         </ul>
       </section>
     </nav>     

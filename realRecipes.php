@@ -60,12 +60,13 @@
         <h3 class="menu-section-title">Navigation</h3>
         <ul class="menu-section-list">
           <li><a href="mobileindex.php">Home</a></li>
-          <li><a href="logIn.php">Sign in</a></li>
-          <li><a href="registermvp.php">Register</a></li>
           <?php
             if (isLoggedin()) {
             echo '<li><a href="fridgeMain.php">Fridge Contents</a></li>';
             echo '<li><a href="fridge.php">Add Ingredients</a></li>';
+            } else {
+                echo '<li><a href="logIn.php">Sign In</a></li>'; 
+                echo '<li><a href="registermvp.php">Register</a></li>';   
             }
           ?>
           <li><a href="realRecipes.php">Recipes</a></li>
