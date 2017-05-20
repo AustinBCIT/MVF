@@ -6,32 +6,23 @@
     background-color: #EAEFF2;
     font-weight: bold;
     font-size: 20px;  
-    position: fixed;
-    
+    position: fixed; 
 }   
 
-html, body {
-    
+html, body { 
     height: 100%;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 button {
-    
-       border: 0;
+    border: 0;
     background: none;
     -webkit-appearance: none;
-    
 }
 
 #length {
     min-height: 100%;
 }
-
-
-
-
         
 .click {
     border-radius: 25px;
@@ -41,8 +32,7 @@ button {
     margin-right: 5px; 
     margin-top: 5px;
     height: 70px;
-    width: 70px;
-            
+    width: 70px;        
 }        
       
 button.input.accordion {      
@@ -57,8 +47,7 @@ button.input.accordion {
     font-size: 15px;
     transition: 0.4s;
 }
-
-        
+     
 button.input.accordion.active, button.input.accordion:hover {
     background-color: #ddd; 
 }        
@@ -74,12 +63,10 @@ button.accordion {
     transition: 0.4s;
     font-weight: bold;
     font-size: 22px;
-    border: 1px solid #eaeff2;
-    
+    border: 1px solid #eaeff2;    
 }
 
-
-.something{
+.something {
     display: inline-block;
 }
 
@@ -102,26 +89,27 @@ div.panel {
     border:1px solid;   
 }
 
-.item-box{height:100px;
-margin-top:15px;
-overflow:auto;
-border:1px solid;}
-
-.add-fridge{margin-top:50px;
-height:40px;
-
+.item-box{
+    height:100px;
+    margin-top:15px;
+    overflow:auto;
+    border:1px solid;
 }
 
-.search-recipe{
+.add-fridge {
+    margin-top:50px;
+    height:40px;
+}
+
+.search-recipe {
     height: 40px;
 }
 
-.recipe-button{
+.recipe-button {
     height:40px;
     margin-bottom: 5px !important;
 }
 
-.icon-move{
+.icon-move {
     text-align:right;
 }
-

@@ -1,21 +1,21 @@
-
 /* Affiliates Page */
 
-.affiliates1{
-      height:250px;
+.affiliates1 {
+    height:250px;
     margin-bottom: 25px; !important;
     padding-top:60px;
 }
+
 .affiliates {
     height:300px;
     margin-bottom: 25px; !important;
-    
 }
 
-.aff-descrip {height:80px;
-font-size: 15px;
-color:white;}
-
+.aff-descrip {
+    height:80px;
+    font-size: 20px;
+    color:white;
+}
 
 .title-container {
     font-size: 38px;
@@ -28,10 +28,9 @@ color:white;}
     color: #EAEFF2;
 }
 
-.aff-content1{padding-left: 0px !important;
-text-align: center;
+.aff-content1 {
+    padding-left: 0px !important;
+    text-align: center;
 }
 
 .meal{}
-
-

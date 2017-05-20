@@ -1,7 +1,8 @@
-<!--<?php
-	session_start();
-?>-->
-
+<?php
+	session_start(); 
+    require_once('mysqli_connect.php');
+    include 'functions.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -82,25 +83,36 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
     </head>
 <body>
      <nav id="menu" class="menu">
-     <a href="mobileindex.html">
         <header class="menu-header">
-          <span class="menu-header-title">'Username'</span>
+          <?php
+            if (isLoggedin()) {
+            echo $_SESSION["user"];
+            }
+          ?>
         </header>
-      </a>
      <section class="menu-section">
         <h3 class="menu-section-title">Navigation</h3>
         <ul class="menu-section-list">
-          <li><a href="mobileindex.html">Home</a></li>
-          <li><a href="logIn.php">Sign in</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="fridgeMain.html">Fridge Contents</a></li>
-          <li><a href="fridge.html">Add Ingredients</a></li>
-          <li><a href="realRecipes.html">Recipes</a></li>
-          <li><a href="tips&tricks.html">Tips &amp; Tricks</a></li>
-          <li><a href="aboutus.html">About us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="affiliated.html">Affiliated Apps</a></li>
-          <li><a href="#">Log Out</a></li>
+          <li><a href="mobileindex.php">Home</a></li>
+          <?php
+            if (isLoggedin()) {
+            echo '<li><a href="fridgeMain.php">Fridge Contents</a></li>';
+            echo '<li><a href="fridge.php">Add Ingredients</a></li>';
+            } else {
+                echo '<li><a href="logIn.php">Sign In</a></li>'; 
+                echo '<li><a href="registermvp.php">Register</a></li>';   
+            }
+          ?>
+          <li><a href="realRecipes.php">Recipes</a></li>
+          <li><a href="tips&tricks.php">Tips &amp; Tricks</a></li>
+          <li><a href="aboutus.php">About us</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="affiliated.php">Affiliated Apps</a></li>
+              <?php
+                if (isLoggedin()){
+                echo '<li><a href="logout.php">Logout</a></li>';
+                }
+              ?>
         </ul>
       </section>
     </nav>   
@@ -109,7 +121,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
           <div class="wedaBest col-md-12">
               <div class="img-container col-xs-1 col-md-1">
 
-                  <a href="mobileindex.html"><div class="mvf">MV<div class="mvf1">F</div></div></a>
+                  <a href="mobileindex.php"><div class="mvf">MV<div class="mvf1">F</div></div></a>
 
 
               </div>
@@ -145,7 +157,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
             </div>
         <a href="#">
             <div class="pic-container col-xs-12">
-                <a href="aboutus.html">
+                <a href="aboutus.php">
                 
                     <div class="para-container col-xs-12 col-md-12">
                         <div class="about col-xs-12"><p>About Us<i class="glyphicon glyphicon-chevron-right"></i></p></div>
@@ -155,7 +167,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
         </a>
         <a href="#">
             <div class="pic-container1 col-xs-12">
-                <a href="tips&tricks.html">
+                <a href="tips&tricks.php">
                     
                         <div class="para-container col-xs-12 col-md-12">
                             
@@ -166,7 +178,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
         </a>
         <a href="#">
             <div class="pic-container2 col-xs-12 col-md-12">
-                <a href="contact.html">
+                <a href="contact.php">
                 
                     <div class="para-container col-xs-12 col-md-12">
                         
@@ -177,7 +189,7 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
         </a>
          <a href="#">
             <div class="pic-container3 col-xs-12 col-md-12">
-                <a href="realRecipes.html">
+                <a href="realRecipes.php">
                 
                     <div class="para-container col-xs-12 col-md-12">
                         
@@ -189,7 +201,5 @@ var egg = new Egg("up,up,down,down,left,right,left,right,b,a", function() {
 </body>
         
     </main>
-
     <img id="egggif" src="../MVF/images/liam.jpg" alt="meme">
-
     </html>    

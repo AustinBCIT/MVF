@@ -2,51 +2,42 @@
 
     session_start();
 
-    require '/home1/mconnection/.htpasswds/connect.php';
+    //Include database connection details
+    require_once('mysqli_connect.php');
     
-    $mysqli = new mysqli($host, $user, $password, $db);
+    $list = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-    // This is making sure if we connected with the database
-    if ($mysqli->connect_error) {
-        die("Connection failed: " . $mysqli->connect_error);
+    // This is making sure if we connected with the database or not
+    if (!$list) {
+        die("Connection failed: ".mysqli_connect_error($list));
     }
 
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    //Making sure password and re-enter password match
+    if ($_POST['password'] == $_POST['password2']) {
 
-        if ($_POST['password'] == $_POST['password2']) {
-
-            $usernames = $mysqli->real_escape_string($_POST['username']);
-            $emails = $mysqli->real_escape_string($_POST['email']);
-            $passwords = $mysqli->real_escape_string($_POST['password']);
-
-            $_SESSION['username'] = $usernames;
-            $_SESSION['email'] = $emails;
-
-
-            // user_id, first_name, last_name, username, email, password, gender
-            $sql = "INSERT INTO users VALUE(
-                    '',
-                    ' ',
-                    ' ',
-                    ' ',
-                    ' ',
-                    ' ',
-                    ' '
-                    )";
-
-            if ($mysqli->query($sql) === true) {
-                $_SESSION['message'] = 'Registration successful!  Added $username to the database!';
-                header("location: mobileindex.html");
-            }
-            else {
-                $_SESSION['username'] = 'Registration failed.';
-            }
-
-        }
-        else {
-            $_SESSION['username'] = '* Please ensure the passwords match<br>';
-        }
+        $first = $_POST['firstname'];
+        $last = $_POST['lastname'];
+        $user = $_POST['username'];
+        $passes = $_POST['password'];
+        $email = $_POST['email'];
+        $sex = $_POST['gender'];
+        
+        } else {
+        echo '* Please ensure the passwords match<br>';
     }
+
+    //Inputting the signin info into the table
+    $sql = "INSERT INTO user (first_name, last_name, username, email, password, gender) VALUES('$first', '$last', '$user', '$email', '$passes', '$sex')";
+
+    //Check whether the query was successful or not
+    $data = mysqli_query($list, $sql) or die(mysqli_error($list));
+
+    //Checking to make sure it's true
+    if ($data) {
+        header("location: mobileindex.php");
+    } else {
+            echo "Registration failed.";
+        }
 
     exit();
 ?>
