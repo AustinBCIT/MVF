@@ -1,8 +1,8 @@
-<?php
+<!--<?php
 	session_start(); 
     require_once('mysqli_connect.php');
     include 'functions.php';
-?>
+?>-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,13 +21,13 @@
 	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     
      <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <meta charset="utf-8">
@@ -49,11 +49,11 @@
     
      <nav id="menu" class="menu">
         <header class="menu-header">
-          <?php
+<!--          <?php
             if (isLoggedin()) {
             echo $_SESSION["user"];
             }
-          ?>
+          ?>-->
         </header>
      <section class="menu-section">
         <h3 class="menu-section-title">Navigation</h3>
@@ -61,22 +61,22 @@
           <li><a href="mobileindex.php">Home</a></li>
           <li><a href="logIn.php">Sign in</a></li>
           <li><a href="registermvp.php">Register</a></li>
-          <?php
+<!--          <?php
             if (isLoggedin()) {
             echo '<li><a href="fridgeMain.php">Fridge Contents</a></li>';
             echo '<li><a href="fridge.php">Add Ingredients</a></li>';
             }
-          ?>
+          ?>-->
           <li><a href="realRecipes.php">Recipes</a></li>
           <li><a href="tips&tricks.php">Tips &amp; Tricks</a></li>
           <li><a href="aboutus.php">About us</a></li>
           <li><a href="contact.php">Contact Us</a></li>
           <li><a href="affiliated.php">Affiliated Apps</a></li>
-              <?php
+<!--              <?php
                 if (isLoggedin()){
                 echo '<li><a href="logout.php">Logout</a></li>';
                 }
-              ?>
+              ?>-->
         </ul>
       </section>
     </nav>     
