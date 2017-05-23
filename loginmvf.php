@@ -33,7 +33,7 @@
         $_SESSION['user'] = $row['username'];  
         header("Location: mobileindex.php");
     } else {
-        "<span style=color:red>Failed to login.</span>"; 
+        echo 'Failed to login';
     }
 
     exit();

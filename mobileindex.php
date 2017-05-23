@@ -13,6 +13,21 @@
     
     <script src="https://use.fontawesome.com/6c5f8d3c8b.js"></script>
     
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBakaFIMGbUxPiCMYRqi6NKkeNgcJBJcZQ",
+        authDomain: "my-virtual-fridge-6ff0b.firebaseapp.com",
+        databaseURL: "https://my-virtual-fridge-6ff0b.firebaseio.com",
+        projectId: "my-virtual-fridge-6ff0b",
+        storageBucket: "my-virtual-fridge-6ff0b.appspot.com",
+        messagingSenderId: "520914821066"
+      };
+      firebase.initializeApp(config);
+    </script>
+    
     <!-- Easter egg for desktop -->
     <script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
     
